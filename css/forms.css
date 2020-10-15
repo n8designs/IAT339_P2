@@ -1,0 +1,33 @@
+fieldset {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 24px 30px;
+
+}
+
+legend {
+
+}
+.payment-form-border {
+  padding: 50px;
+
+}
+
+.payment-form-border h3 {
+
+}
+
+.payment-form-border label {
+display: inline-block;
+margin-right:2rem;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+
+
+.payment-form-border input {
+display: block;
+margin-top:5px;
+padding: 1rem;
+}

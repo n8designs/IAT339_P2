@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>P01 - Products Page for Divine Chocolatier</title>
+
+  <link href="fonts/Rockwell/rockwell.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/fjw1qfk.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/Productpage.css" rel="stylesheet">
+  <link href="css/topbannernav.css" rel="stylesheet">
+  <link href="css/flexbox.css" rel="stylesheet">
+  <link href="css/forms.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="banner flexbox-row">
+    <div class="banner-item-left">
+      <a class="nav-link" href="products.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
+
+    </div>
+
+    <div class="banner-item-left">
+
+      <a class="nav-link" href="#contact"> Contact </a>
+    </div>
+    <div class="banner-item-left">
+      <a class="nav-link" href="#about"> About </a>
+
+    </div>
+
+    <div class="banner-item-left">
+      <a class="nav-link" href="Checkout.html"> Cart </a>
+    </div>
+    <div class="banner-item-left ">
+      <a class="nav-link" href="#login"> Login </a>
+    </div>
+
+  </div>
+
+  <section>
+    <a href="Checkout.html" class="text-link">Go Back</a>
+    <form>
+      <fieldset class="payment-form-border">
+
+        <legend>
+          <H3>Payment Form</h3>
+        </legend>
+
+        <div>
+          <label for="FullName">Full Name
+            <input type="text" id="FullName" autocomplete="on" placeholder="Jane Doe">
+          </label>
+          <label for="address"> Address
+            <input type="text" id="address" autocomplete="on" placeholder="1234 Street 12 Avenue">
+          </label>
+          <label for="postalcode"> Postal Code
+            <input type="text" id="postalcode" autocomplete="on" placeholder="XXX XXX" maxlength="6">
+          </label>
+          <label for="country"> Country
+            <input type="text" id="country" autocomplete="on" placeholder="Canada">
+          </label>
+          <label for="province"> Province
+            <input type="text" id="province" autocomplete="on" placeholder="BC">
+          </label>
+          <label for="city"> City
+            <input type="text" id="city" autocomplete="on" placeholder="Canada">
+          </label>
+          <label for="email"> Email
+            <input type="email" id="email" autocomplete="on" placeholder="youremail@email.com">
+          </label>
+        </div>
+
+        <div>
+          <label for="ccName">Name on Credit Card
+            <input type="text" id="ccName" autocomplete="on" placeholder="Jane Doe">
+          </label>
+
+
+          <label for="creditcard"> Credit Card
+            <input type="tel" id="creditcard" inputmode="numeric" pattern="[0-9/s]{13,19}" autocomplete="on" maxlength="19" placeholder="XXXX XXXX XXXX XXXX">
+          </label>
+
+          <label for="cvv"> CVV
+            <input type="tel" id="cvv" autocomplete="on" placeholder="XXX" maxlength="3">
+          </label>
+
+          <label for="expdate"> Exp date
+            <input type="date" id="expdate">
+          </label>
+        </div>
+
+
+        <input type="submit" value="Submit" class="input-button">
+
+
+
+      </fieldset>
+    </form>
+  </section>
+
+
+
+
+
+</body>
+
+</html>

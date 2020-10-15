@@ -1,0 +1,31 @@
+.banner{
+  position:fixed;
+
+  top:0;
+  left:0;
+  background: rgb(106,71,46);
+background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%, rgba(155,112,81,1) 100%);
+height:72px;
+  width:100%;
+}
+
+.banner-item-left {
+  margin-left:3em;
+  display: block;
+  margin-top:1.3rem;
+  box-sizing: border-box;
+}
+
+
+
+.banner-item-right {
+  margin-right:3em;
+display:block;
+  margin-top:1.3rem;
+    box-sizing: border-box;
+}
+
+@media (max-width:700px) {
+.banner {
+  width:100%
+}

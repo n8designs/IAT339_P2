@@ -1,0 +1,88 @@
+.productnav{
+  position: fixed;
+  box-sizing: border-box;
+  height:30rem;
+  left:-70px;
+  top:140px;
+  width:300px;
+  color:#3F3F3D;
+  border: 2px solid #977765;
+  background-color: #FEFFF6;
+}
+
+.productnav ul {
+  margin-left:80px;
+  margin-top:50px;
+  list-style-type: none;
+}
+
+.productnav li {
+  margin-top:1rem;
+}
+
+.productnav-link {
+  text-decoration: none;
+  color:#3F3F3D;
+  font-weight: 600;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition:
+  color ease-in 100ms;
+}
+
+
+.productnav-link:hover {
+  color:#FBC402;
+  text-decoration: underline;
+}
+
+.product-section {
+ margin-left:17rem;
+margin-bottom:5rem;
+}
+/* start-page is so there is space between the banner and the start of the page. */
+.start-page {
+  margin-top:4rem;
+}
+
+.sectiontitle {
+  margin-left:17rem;
+}
+
+.fullproduct-image-pic {
+width: 500px;
+height: 500px;
+margin-top:2rem;
+box-shadow:
+-25px -25px 0 -2px #FEFFF6,
+-25px -25px 0 0 #977765;
+transition:
+box-shadow ease-in 150ms;
+}
+.fullproduct-image-pic:hover {
+box-shadow:
+2px -2px 0 -2px #FEFFF6,
+-2px -2px 0 0 #977765;
+}
+
+.fullproduct-description{
+  margin-top:2rem;
+}
+
+@media (max-width:700px) {
+.productnav {
+  width:1000px;
+  height: 20rem;
+  top:70px;
+  position: fixed;
+  margin-bottom: 10rem;
+}
+.start-page {
+  margin-top: 25rem;
+}
+
+.sectiontitle {
+  margin-left:0;
+}
+
+}
