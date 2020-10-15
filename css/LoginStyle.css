@@ -11,12 +11,15 @@ body {
 .box {
   width: 300px;
   padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  /* position: absolute; */
+margin-left: 50%;
+margin-top:25%;
   transform: translate(-50%,-50%);
   background: linear-gradient(117.04deg, #442603 7.97%, rgba(111, 92, 70, 0) 97.85%), #2E1300;
   text-align: center;
+  box-shadow:
+  -25px -25px 0 -2px #FEFFF6,
+  -25px -25px 0 0 #977765;
 }
 .box h1 {
   color: #FBC402;
@@ -63,3 +66,16 @@ body {
   background: #2ecc71
 
 }
+
+@media screen and (max-width:1300px) {
+  .box {
+  margin-top:50%;
+
+  }
+
+}
+@media screen and (max-width:700px) {
+  .box {
+  margin-top:80%;
+
+  }

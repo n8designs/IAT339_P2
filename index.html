@@ -10,6 +10,7 @@
 
   <link href="fonts/Rockwell/rockwell.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/fjw1qfk.css">
+  <link rel="stylesheet" href="css/LoginStyle.css">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/forms.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
@@ -38,7 +39,7 @@
       <a class="nav-link" href="#combined_elements">Combined Elements</a>
       <a class="nav-link" href="#product_listing">Product Listing Template</a>
       <a class="nav-link" href="#checkout-cart">Checkout Template</a>
-    <a class="nav-link" href="#payment">Payment Form</a>
+      <a class="nav-link" href="#payment">Payment Form</a>
       <a class="nav-link" href="#brandingconcepts">Branding Concepts</a>
       <a class="nav-link" href="#Fonts">Fonts</a>
       <a class="nav-link" href="#Templates">Templates</a>
@@ -51,6 +52,10 @@
       <a class="button-nav" href="fullproductpage.html">Product Selected</a>
       <a class="button-nav" href="Checkout.html">Cart Checkout</a>
       <a class="button-nav" href="Payment.html">Payment</a>
+      <a class="button-nav" href="HomePage.html">Home Page</a>
+      <a class="button-nav" href="ContactUs.html">Contact Us</a>
+      <a class="button-nav" href="Login.html">Login</a>
+      <a class="button-nav" href="about.html">About</a>
     </nav>
   </header>
 
@@ -282,75 +287,75 @@
 
 
 
-<!-- Product Listing! -->
-<!-- This is done by creating each item listing as its own border-box, consisting of a flexbox-construct inside.
+    <!-- Product Listing! -->
+    <!-- This is done by creating each item listing as its own border-box, consisting of a flexbox-construct inside.
 This allowed me to have the atoms within this molecule move around at certain breakpoints and made it easy to copy and paste for multiple of them. -->
     <section id="product_listing" class="element">
       <h3>Product/Service Listing</h3>
-<div class="product-shift">
+      <div class="product-shift">
 
-      <div class="container-one">
-        <div class="product-listing-box flexbox-column">
-          <div class="flex-item">
-            <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-          </div>
-          <div class="flex-item">
+        <div class="container-one">
+          <div class="product-listing-box flexbox-column">
+            <div class="flex-item">
+              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
+            </div>
+            <div class="flex-item">
 
-            <a href="" class="product-name">Product Name </a>
+              <a href="" class="product-name">Product Name </a>
 
-          </div>
-          <div class="flex-item">
-            <p class="para-text">description </p>
+            </div>
+            <div class="flex-item">
+              <p class="para-text">description </p>
+            </div>
+
+            <div class="flex-item  product-bottom">
+              <h1 class="product-price"> $7.65 </h1>
+              <a class="button-nav" href="#">Add to Cart</a>
+            </div>
           </div>
 
-          <div class="flex-item  product-bottom">
-            <h1 class="product-price"> $7.65 </h1>
-            <a class="button-nav" href="#">Add to Cart</a>
+
+          <div class="product-listing-box flexbox-column">
+            <div class="flex-item">
+              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
+            </div>
+            <div class="flex-item">
+
+              <a href="" class="product-name">Product Name </a>
+
+            </div>
+            <div class="flex-item">
+              <p class="para-text">description </p>
+            </div>
+
+            <div class="flex-item  product-bottom">
+              <h1 class="product-price"> $7.65 </h1>
+              <a class="button-nav" href="#">Add to Cart</a>
+            </div>
           </div>
+
+          <div class="product-listing-box flexbox-column">
+            <div class="flex-item">
+              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
+            </div>
+            <div class="flex-item">
+
+              <a href="" class="product-name">Product Name </a>
+
+            </div>
+            <div class="flex-item">
+              <p class="para-text">description </p>
+            </div>
+
+            <div class="flex-item  product-bottom">
+              <h1 class="product-price"> $7.65 </h1>
+              <a class="button-nav" href="#">Add to Cart</a>
+            </div>
+          </div>
+
+
         </div>
-
-
-        <div class="product-listing-box flexbox-column">
-          <div class="flex-item">
-            <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-          </div>
-          <div class="flex-item">
-
-            <a href="" class="product-name">Product Name </a>
-
-          </div>
-          <div class="flex-item">
-            <p class="para-text">description </p>
-          </div>
-
-          <div class="flex-item  product-bottom">
-            <h1 class="product-price"> $7.65 </h1>
-            <a class="button-nav" href="#">Add to Cart</a>
-          </div>
-        </div>
-
-        <div class="product-listing-box flexbox-column">
-          <div class="flex-item">
-            <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-          </div>
-          <div class="flex-item">
-
-            <a href="" class="product-name">Product Name </a>
-
-          </div>
-          <div class="flex-item">
-            <p class="para-text">description </p>
-          </div>
-
-          <div class="flex-item  product-bottom">
-            <h1 class="product-price"> $7.65 </h1>
-            <a class="button-nav" href="#">Add to Cart</a>
-          </div>
-        </div>
-
-
       </div>
-</div>
 
     </section>
 
@@ -359,8 +364,8 @@ This allowed me to have the atoms within this molecule move around at certain br
 
 
 
-<!-- Payment Form -->
-<!-- This is a simple payment form -->
+    <!-- Payment Form -->
+    <!-- This is a simple payment form -->
     <section id="payment" class="element">
       <form>
         <fieldset class="payment-form-border">
@@ -421,8 +426,8 @@ This allowed me to have the atoms within this molecule move around at certain br
       </form>
     </section>
 
-<!-- CHECKOUT CART  -->
-<!-- This was done similarily to the product listings. By encasing everything in a box with flex-box inside I was able to
+    <!-- CHECKOUT CART  -->
+    <!-- This was done similarily to the product listings. By encasing everything in a box with flex-box inside I was able to
 create components that moved/shifted and fit everything in the way I wanted it to. -->
     <section id="checkout-cart" class="element">
       <h3 class="h3-heading">Checkout Cart</h3>
@@ -496,13 +501,47 @@ create components that moved/shifted and fit everything in the way I wanted it t
       </div>
     </section>
 
+    <section id="login">
+      <h3 class="h3-heading">Login</h3>
+      <div class="box">
+        <form action="products.html" method="post">
+          <h1>Login</h1>
+          <input type="text" name="" placeholder="UserName">
+          <input type="password" name="" value="" placeholder="password">
+          <input type="submit" name="" value="Login">
+        </form>
+      </div>
+
+    </section>
+
+
+    <section id="contact">
+      <form class="form flexbox-column">
+        <legend>
+          <h1>Contact Us</h1>
+          <p>Ask asks any questions or request anything</p>
+        </legend>
+
+
+        <div>
+          <input type="text" name="" value="" placeholder="First Name">
+          <input type="text" name="" value="" placeholder="Last Name">
+          <input type="text" name="" value="" placeholder="Email Address">
+          <textarea name="name" placeholder="How can we help?" style="height:200px"></textarea>
+          <a href="#" class="button-nav">Submit</a>
+
+
+      </form>
+
+    </section>
+
   </section>
   <!-- // COMBINED ELEMENTS SECTION -->
 
 
 
-<!-- Branding -->
-<!-- I made these mock-ups in Figma, and tried to replicate the design via code. -->
+  <!-- Branding -->
+  <!-- I made these mock-ups in Figma, and tried to replicate the design via code. -->
   <section id="brandingconcepts" class="element">
     <h2>Branding Concepts</h2>
     <h3>Matte Nude-Brown/Cafe</h3>
@@ -511,7 +550,7 @@ create components that moved/shifted and fit everything in the way I wanted it t
 
   </section>
 
-<!-- FONTS SECTION -->
+  <!-- FONTS SECTION -->
   <section id="Fonts">
     <h2>Fonts</h2>
     <h2 class="rockwell-upper">Rockwell</h2>
@@ -535,9 +574,9 @@ create components that moved/shifted and fit everything in the way I wanted it t
     <p class="para-text">Neue Haas Unica is a take on the classiv Helvetica, this makes it visually strong and easy to read. The contrast of this san-serif with the slab-serif of Rockwell creates a strong visual pull between the two.</p>
 
   </section>
-<!-- End of font section -->
+  <!-- End of font section -->
 
-<!-- TEMPLATE LINKS -->
+  <!-- TEMPLATE LINKS -->
   <section id="Templates">
     <h2>Navigation to Template Pages</h2>
     <nav>
@@ -549,7 +588,7 @@ create components that moved/shifted and fit everything in the way I wanted it t
   </section>
 
 
-<!-- CITATIONS -->
+  <!-- CITATIONS -->
   <section id="citations">
     <h2>Citations</h2>
 

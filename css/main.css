@@ -6,18 +6,17 @@
 /* html {
 font-size:1vw;
 } */
-
 body {
-  font-family: 'Rockwell','Times New Roman', serif;
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Rockwell', 'Times New Roman', serif;
+  font-weight: normal;
+  font-style: normal;
   padding: 2rem;
-  color:#3F3F3D;
+  color: #3F3F3D;
   background-color: #FEFFF6;
 }
 
 .element {
-  margin-top:2rem;
+  margin-top: 2rem;
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
@@ -25,11 +24,14 @@ body {
 }
 
 section {
-  margin-top:5rem;
-  margin-bottom:5rem;
-
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
+header {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 
 h2 {
   margin-top: 2rem;
@@ -58,11 +60,9 @@ code {
   display: block;
 }
 
-
 /*
   INTERACTIVE ELEMENTS -------------------
 */
-
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
@@ -76,7 +76,7 @@ code {
 }
 
 .button-nav:hover, .button-nav:focus {
-  color:#FBC402;
+  color: #FBC402;
   border: 2px solid #FBC402;
 }
 
@@ -86,40 +86,36 @@ code {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color:#FBC402;
-
+  color: #FBC402;
   transition-property: color;
   transition-duration: 0.3s;
   transition:
-  color ease-in 100ms;
+    color ease-in 100ms;
 }
 
 .text-link:hover {
-  color:#3F3F3D;
+  color: #3F3F3D;
 }
 
 .nav-link {
   font-family: neue-haas-unica, sans-serif;
-
   font-weight: 200;
-  font-size:1.2rem;
-
+  font-size: 1.2rem;
   font-style: normal;
-
-  padding:.5rem;
+  padding: .5rem;
   padding-right: 2rem;
   text-decoration: none;
-  color:#FBC402;
-
+  color: #FBC402;
   transition-property: color;
   transition-duration: 0.3s;
   transition:
-  color ease-in 100ms;
+    color ease-in 100ms;
 }
 
-.nav-link:hover{
-color:#3F3F3D;
+.nav-link:hover {
+  color: #3F3F3D;
 }
+
 /* Styling for the inputs */
 .input-button {
   display: inline-block;
@@ -131,93 +127,79 @@ color:#3F3F3D;
   transition-property: color border;
   transition-duration: 0.5s;
 }
+
 .input-button:hover {
-  color:#FBC402;
+  color: #FBC402;
   border: 2px solid #FBC402;
 }
 
-.text-input-label {
+.text-input-label {}
 
-}
+.text-input-field {}
 
-.text-input-field {
-
-}
-
-.radio-button{
-
-}
-
-
+.radio-button {}
 
 .radio-label {
   font-weight: 600;
   transition-property: color border;
   transition-duration: 0.5s;
 }
+
 .radio-label:hover {
-color:#FBC402;
+  color: #FBC402;
 }
 
 /* Styling for images */
 .image-pic {
-width: 50%;
-height: auto;
-margin-top:2rem;
-box-shadow:
--25px -25px 0 -2px #FEFFF6,
--25px -25px 0 0 #977765;
-transition:
-box-shadow ease-in 150ms;
+  width: 50%;
+  height: auto;
+  margin-top: 2rem;
+  box-shadow:
+    -25px -25px 0 -2px #FEFFF6,
+    -25px -25px 0 0 #977765;
+  transition:
+    box-shadow ease-in 150ms;
 }
+
 .image-pic:hover {
-box-shadow:
-2px -2px 0 -2px #FEFFF6,
--2px -2px 0 0 #977765;
+  box-shadow:
+    2px -2px 0 -2px #FEFFF6,
+    -2px -2px 0 0 #977765;
 }
 
 .image-link {
-  margin-top:3rem;
-  padding-top:2rem;
-
+  margin-top: 3rem;
+  padding-top: 2rem;
 }
 
 .logo {
- width:140px;
- height:70px;
- margin-top:-1.3rem;
+  width: 140px;
+  height: 70px;
+  margin-top: -1.3rem;
 }
 
 /*
   TEXT ELEMENTS -------------------
 */
-.h1-heading {
+.h1-heading {}
 
+.h2-heading {
+  font-size: 2.5rem;
 }
 
-.h2-heading{
-font-size: 2.5rem;
-}
+.h3-heading {}
 
-.h3-heading{
+.h4-heading {}
 
-}
-.h4-heading{
-
-}
-
-.para-text{
+.para-text {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.list-holder{
 
-}
+.list-holder {}
 
-.list-item{
-
-}
+.list-item {}
 
 .main-title {
   font-size: 300%;
@@ -232,102 +214,100 @@ font-size: 2.5rem;
 */
 .nav-bar-background {
   position: absolute;
-width: 100%;
-height: 2rem;
-margin-bottom:2rem;
- left: 0px;
- padding-left: 4rem;
-/*
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 2rem;
+  left: 0px;
+  padding-left: 4rem;
+  /*
 top: 0px; */
-
-background: linear-gradient(279.77deg, #9B7051 20.18%, rgba(106, 71, 46, 0) 87.67%), #977765;
+  background: linear-gradient(279.77deg, #9B7051 20.18%, rgba(106, 71, 46, 0) 87.67%), #977765;
 }
-
-
 
 /*
   Product Listing:
 */
-.product-listing-box{
+.product-listing-box {
   box-sizing: border-box;
-  width:300px;
-  height:430px;
-margin:2rem;
+  width: 300px;
+  height: 430px;
+  margin: 2rem;
 }
 
 .product-price {
   display: inline-block;
-  margin-right:4rem;
-  padding-right:3.7rem;
-  font-size:1.7rem;
+  margin-right: 4rem;
+  padding-right: 3.7rem;
+  font-size: 1.7rem;
 }
 
 .product-name {
-font-size:2rem;
-  color:#3F3F3D;
-    text-decoration: none;
-    transition-property: color text-decoration;
-    transition-duration: 0.5s;
+  font-size: 2rem;
+  color: #3F3F3D;
+  text-decoration: none;
+  transition-property: color text-decoration;
+  transition-duration: 0.5s;
 }
 
 .product-name:hover {
-  color:#977765;
-    text-decoration: underline;
+  color: #977765;
+  text-decoration: underline;
 }
 
 .product-bottom {
-margin-top:-2rem
+  margin-top: -2rem
 }
 
 .product-image-pic {
-width: 300px;
-height: 300px;
-margin-top:2rem;
-box-shadow:
--25px -25px 0 -2px #FEFFF6,
--25px -25px 0 0 #977765;
-transition:
-box-shadow ease-in 150ms;
+  width: 300px;
+  height: 300px;
+  margin-top: 2rem;
+  box-shadow:
+    -25px -25px 0 -2px #FEFFF6,
+    -25px -25px 0 0 #977765;
+  transition:
+    box-shadow ease-in 150ms;
 }
+
 .product-image-pic:hover {
-box-shadow:
-2px -2px 0 -2px #FEFFF6,
--2px -2px 0 0 #977765;
+  box-shadow:
+    2px -2px 0 -2px #FEFFF6,
+    -2px -2px 0 0 #977765;
 }
 
 .productimage-link {
-  margin-top:3rem;
-  padding-top:2rem;
-
+  margin-top: 3rem;
+  padding-top: 2rem;
 }
+
 /*
   Checkout Listing
 */
 .total-text {
   padding-bottom: 2rem;
 }
-.checkout-item {
-  display:block;
-  background-color:#EDEAE6;
-  padding:1.5rem;
-  margin:2rem;
-  border-radius: 10px;
-  margin-right:3rem;
 
+.checkout-item {
+  display: block;
+  background-color: #EDEAE6;
+  padding: 1.5rem;
+  margin: 2rem;
+  border-radius: 10px;
+  margin-right: 3rem;
 }
 
 .checkout-container {
   box-sizing: border-box;
-  width:600px;
-  height:100px;
-  margin-bottom:3rem;
+  width: 600px;
+  height: 100px;
+  margin-bottom: 3rem;
 }
 
 .checkout-boxshadow {
-  width:100px;
-  height:100px;
-    margin-left:-3rem;
-    margin-top:-3rem;
+  width: 100px;
+  height: 100px;
+  margin-left: -3rem;
+  margin-top: -3rem;
   background-color: #FEFFF6;
   border: 2px solid #977765;
   position: absolute;
@@ -336,225 +316,345 @@ box-shadow:
 
 .image-container {
   position: relative;
-
 }
 
 .checkout-section {
   box-sizing: border-box;
-  width:1200px;
-  margin-bottom:15rem;
+  width: 1200px;
+  margin-bottom: 15rem;
 }
 
-.checkout-image{
+.checkout-image {
   position: absolute;
   width: 100px;
   height: 100px;
-  margin-top:2rem;
-  margin-left:-2rem;
+  margin-top: 2rem;
+  margin-left: -2rem;
   z-index: 20;
   transition:
-  box-shadow ease-in 150ms;
+    box-shadow ease-in 150ms;
   vertical-align: middle;
 }
+
 .checkout-details {
-  display:inline-block;
-  margin-top:-5rem;
-  padding-top:3rem;
+  display: inline-block;
+  margin-top: -5rem;
+  padding-top: 3rem;
 }
+
 .checkout-name {
-text-decoration: none;
-color:#3F3F3D;
-font-size:2rem;
-margin-bottom:2rem;
-margin-top:1rem;
-margin-left:5rem;
+  text-decoration: none;
+  color: #3F3F3D;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
 }
+
 .checkout-name:hover {
-  color:#977765;
-    text-decoration: underline;
+  color: #977765;
+  text-decoration: underline;
 }
 
 .checkout-price {
   padding-left: 5rem;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   display: inline-block;
 }
 
-.checkout-checkbox{
+.checkout-checkbox {
   padding-left: 5rem;
   display: inline-block;
 }
 
 .checkout-description {
-margin-bottom:2rem;
-margin-left:5rem;
-font-family: neue-haas-unica, sans-serif;
-font-weight: 400;
-font-style: normal;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*
  Font Showcase
 */
-.rockwell-upper{
+.rockwell-upper {
   font-size: 5rem;
 }
-.neue-upper{
+
+.neue-upper {
   font-size: 2rem;
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-@media screen and (max-width:700px) {
-.body {
-  margin-left:0;
-  margin-top:100px;
-}
-
-html {
-  font-size:2vw;
-}
-
-.checkout-section {
-  width:500px;
-  height:200px;
-  margin-bottom:18rem;
-}
-.checkout-details p {
-  margin-left:7rem;
-}
-.checkout-name {
-  margin-left:7rem;
-}
-
-.checkout-item {
-  width:400px;
-}
-
-
-.product-image-pic{
-  width:60%;
-  height:auto;
-
-}
-
-.product-bottom{
-  width:100px;
-}
-
-.product-shift {
-  margin-left:10rem;
-}
-
-.pay-button {
-  margin:2rem;
-}
-
-
-
-.product-listing-box{
+/* Contact Us */
+.form {
+  margin-left: 50%;
+  margin-top: 30vw;
   box-sizing: border-box;
-  max-width:150px;
-  height:300px;
-  margin:3rem;
-  margin-right:6rem;
-  margin-left:-8rem;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-.container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.login-box {
-  width: 280px;
-  position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  text-align: center;
 }
 
-.login-box h1 {
-  float: left;
-  font-size: 40px;
-  border-bottom: 6px solid;
-  margin-bottom: 50px;
-  padding: 13px 0;
-}
-
-.textbox {
+.form input {
   width: 100%;
-  overflow: hidden;
-  font-size: 20px;
-  padding: 8px 0;
-  margin: 8px 0;
-  border-bottom: 1px solid;
+  padding: 10px 0;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  border-bottom: 1px solid #977765;
 }
 
+.form textarea {
+  width: 100%;
+  padding-left: 10px 0;
+  margin: 20px 0;
+  margin-bottom: 5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #977765;
+}
 
+::-webkit-input-placeholder {
+  color: #FBC402;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#msg {
+  margin-top: 60px;
+}
+
+.HomeBanner {
+  box-sizing: border-box;
+  background-color: #C7A795;
+  max-width: 3000px;
+  min-width: 100%;
+  max-height: 40rem;
+  width: 100% left:-100px;
+  margin-left: -5rem;
+  margin-right: -5rem;
+  height: 60vw;
+}
+
+.HomeBanner img {
+  height: auto;
+  width: 75%;
+  margin-top: -5rem;
+  margin-left: 5rem;
+  max-height: 45rem;
+  max-width: 50rem;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.HomeBannerItem {}
+
+.HomeBanner h2 {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-top: 15rem;
+  margin-left: -40rem;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: #FBC402;
+}
+
+.homebanner-button-nav {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-left: -40rem;
+  margin-top: 20rem;
+  padding: 0.5rem;
+  color: #FBC402;
+  border: 2px solid #FBC402;
+  background-color: #C7A795;
+  text-decoration: none;
+  transition-property: color border;
+  transition-duration: 0.5s;
+}
+
+.homebanner-button-nav:hover, .button-nav:focus {
+  color: #3F3F3D;
+  border: 2px solid #3F3F3D;
+}
+
+@media screen and (max-width:1300px) {
+  .form {
+    margin-top: 60vw;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .body {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+
+  html {
+    font-size: 2vw;
+  }
+
+  .form {
+    margin-top: 70vw;
+  }
+
+  .checkout-section {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 18rem;
+  }
+
+  .checkout-details p {
+    margin-left: 7rem;
+  }
+
+  .checkout-name {
+    margin-left: 7rem;
+  }
+
+  .checkout-item {
+    width: 400px;
+  }
+
+  .product-image-pic {
+    width: 60%;
+    height: auto;
+  }
+
+  .product-bottom {
+    width: 100px;
+  }
+
+  .product-shift {
+    margin-left: 10rem;
+  }
+
+  .pay-button {
+    margin: 2rem;
+  }
+
+  .product-listing-box {
+    box-sizing: border-box;
+    max-width: 150px;
+    height: 300px;
+    margin: 3rem;
+    margin-right: 6rem;
+    margin-left: -8rem;
+  }
+
+  .HomeBanner img {
+    height: auto;
+    width: 40rem;
+    margin-left: 3rem;
+    opacity: 0.9;
+  }
+
+  .HomeBanner {
+    height: 30rem;
+  }
+
+  .homebanner-button-nav {
+    margin-left: -15rem;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container:hover input~.checkmark {
+    background-color: #ccc;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container input:checked~.checkmark {
+    background-color: #2196F3;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container input:checked~.checkmark:after {
+    display: block;
+  }
+
+  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+  }
+
+  .textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+  }
 }
