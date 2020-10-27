@@ -15,95 +15,88 @@
   <link href="css/topbannernav.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
   <link href="css/forms.css" rel="stylesheet">
+  <link href="css/navtotop.css" rel="stylesheet">
+
+  <script type="text/javascript" src="js/main.js" defer async></script>
 </head>
 
 <body>
 
-  <div class="banner flexbox-row">
-    <div class="banner-item-left">
-      <a class="nav-link" href="HomePage.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
-
+  <nav class="banner bannercolor flexbox-row2 bannerbackground">
+    <div class="banner-logo">
+      <a class="nav-link" href="DivineHome.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
     </div>
 
-    <div class="banner-item-left">
-      <a href="products.html" class="nav-link"> Products</a>
-    </div>
-
-    <div class="banner-item-left">
-
-      <a class="nav-link" href="ContactUs.html"> Contact </a>
-    </div>
-    <div class="banner-item-left">
-      <a class="nav-link" href="about.html"> About </a>
-
-    </div>
-
-    <div class="banner-item-left">
-      <a class="nav-link" href="Checkout.html"> Cart </a>
-    </div>
-    <div class="banner-item-left ">
-      <a class="nav-link" href="Login.html"> Login </a>
-    </div>
-
-  </div>
-
-
-  <div class="productnav">
-    <nav>
-      <ul>
-        <li> <a class="productnav-link" href="#FeaturedBars">Featured Bars</a> </li>
-        <li> <a class="productnav-link" href="#ChocolateBars">Chocolate Bars</a> </li>
-        <li> <a class="productnav-link" href="#">Tablets</a> </li>
-        <li> <a class="productnav-link" href="#">Boxed Chocolates</a> </li>
-        <li> <a class="productnav-link" href="#">Enrobed Fruit</a> </li>
-        <li> <a class="productnav-link" href="#">Treats</a> </li>
-        <li> <a class="productnav-link" href="#">Holiday Specials</a> </li>
+    <div class="flexbox-row2 hidden" id="hamborgorstuffing">
+      <ul class="banner-item-left">
+        <li class="nav-list"> <a class="nav-link" href="products.html"> Products</a> </li>
+        <li class="nav-list"> <a class="nav-link" href="ContactUs.html"> Contact </a> </li>
+          <li class="nav-list"> <a class="nav-link" href="DivineHome.html#aboutdivine"> About </a> </li>
       </ul>
-    </nav>
 
-  </div>
+      <ul class="banner-item-right">
+
+        <li class="nav-list"> <a class="nav-link" href="Checkout.html"> Cart </a> </li>
+        <li class="nav-list"> <a class="nav-link" href="Login.html"> Login </a> </li>
+      </ul>
+    </div>
+
+    <button id="hamborgor">&#9776;</button>
+  </nav>
+
+
+  <nav class="productnav">
+      <ul>
+        <li> <a class="productnav-link" href="products.html#FeaturedBars">Featured Bars</a> </li>
+        <li> <a class="productnav-link" href="products.html#ChocolateBars">All Chocolates</a> </li>
+        <li> <a class="productnav-link" href="fruitproducts.html">Fruit Chocolates</a> </li>
+        <li> <a class="productnav-link" href="darkproducts.html">Dark Chocolates</a> </li>
+        <li> <a class="productnav-link" href="rubyproducts.html">Ruby Chocolates</a> </li>
+      </ul>
+ </nav>
 
 
 
 
-  <div class="container-two product-section start-page">
-    <a href="products.html" class="text-link">Go Back</a>
+  <div class="flexbox-column start-page">
 
-    <div class="flexbox-row container-two">
+    <section>
+      <nav class="indivproduct-nav">
+    <a href="products.html#FeaturedBars" class="productnav-link indivproduct-nav-item">Featured Chocolates /</a>
+<a class="productnav-link indivproduct-nav-item"> Oh Jindy! Bar</a>
+  </nav>
+  </section>
+  <section class="indivproduct-image">
+<div >
+    <div class="flexbox-row2">
       <div class="flex-item">
         <a href="#">
           <img class="fullproduct-image-pic" src="images/bar.jpg" alt="bar">
         </a>
       </div>
       <div class="flex-item fullproduct-description">
-
-        <a class="product-name">White Chocolate Caramel Bar </a>
-
-
-        <p class="para-text">description </p>
-
-
-
-        <h1 class="product-price"> $4.20 </h1>
+        <a class="product-name indivproduct-name">Oh Jindy! Bar </a>
+        <h1 class="product-price"> $7.65 </h1>
         <a class="button-nav" href="#">Add to Cart</a>
+        <p class="para-text produc-desc">White and milk chocolate with caramel, roasted peanuts and peanut butter truffle</p>
       </div>
     </div>
 
 
 
-
   </div>
+  </div>
+</section>
 
-
-
-  <h2 class="h2-heading sectiontitle" id="ChocolateBars">Recommendations</h2>
+<section>
+  <h2 class="h2-heading sectiontitle" >Other's Also Bought</h2>
   <div class="container-one product-section">
 
 
     <div class="product-listing-box flexbox-column">
       <div class="flex-item">
         <a href="#">
-          <img class="product-image-pic" src="images/product1.png" alt="bar">
+          <img class="product-image-pic" src="images/bar.jpg" alt="bar">
         </a>
       </div>
       <div class="flex-item">
@@ -125,7 +118,7 @@
     <div class="product-listing-box flexbox-column">
       <div class="flex-item">
         <a href="#">
-          <img class="product-image-pic" src="images/product1.png" alt="bar">
+          <img class="product-image-pic" src="images/bar.jpg" alt="bar">
         </a>
       </div>
       <div class="flex-item">
@@ -146,7 +139,7 @@
     <div class="product-listing-box flexbox-column">
       <div class="flex-item">
         <a href="#">
-          <img class="product-image-pic" src="images/product1.png" alt="bar">
+          <img class="product-image-pic" src="images/bar.jpg" alt="bar">
         </a>
       </div>
       <div class="flex-item">
@@ -166,7 +159,8 @@
 
 
   </div>
-
+  <a class="top-link hide regbut" href="" id="topButton">
+</section>
 
 </body>
 

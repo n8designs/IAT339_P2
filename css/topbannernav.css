@@ -1,32 +1,89 @@
 .banner{
-  position:fixed;
+  position:absolute;
 
   top:0;
   left:0;
-  background: rgb(106,71,46);
-background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%, rgba(155,112,81,1) 100%);
+  /* background: rgb(106,71,46);
+background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%, rgba(155,112,81,1) 100%); */
 height:72px;
   width:100%;
   z-index:3;
 }
 
+.bannerbackground {
+  background: #AB523C;
+}
+
 .banner-item-left {
-  margin-left:3em;
+  margin-left:-10vw;
+  display: block;
+  margin-top:1.3rem;
+  box-sizing: border-box;
+  list-style: none;
+
+}
+
+.banner-logo {
+  margin-left:3vw;
   display: block;
   margin-top:1.3rem;
   box-sizing: border-box;
 }
 
-
-
 .banner-item-right {
-  margin-right:3em;
+  margin-left:10em;
 display:block;
   margin-top:1.3rem;
     box-sizing: border-box;
 }
 
-@media (max-width:700px) {
+.nav-list{
+  display: inline-block;
+}
+
+#hamborgor {
+  display: none;
+}
+
+@media (max-width:1200px) {
 .banner {
   width:100%
+}
+
+#hamborgor {
+  display: block;
+}
+
+
+.nav-list {
+  display: block;
+}
+
+.banner-item-right,.banner-item-left {
+  margin-left:0;
+  display: block;
+  margin-top:1.3rem;
+  box-sizing: border-box;
+  list-style: none;
+
+}
+
+#hamborgorstuffing{
+  position: fixed;
+  right:50px;
+  top:30px;
+  background-color:white;
+
+}
+
+#hamborgorstuffing.hidden{
+  display: none;
+
+}
+
+#hamborgorstuffing.display{
+  display: block;
+
+}
+
 }

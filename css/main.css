@@ -10,9 +10,12 @@ body {
   font-family: 'Rockwell', 'Times New Roman', serif;
   font-weight: normal;
   font-style: normal;
-  padding: 2rem;
   color: #3F3F3D;
   background-color: #FEFFF6;
+}
+
+.styleguide {
+left:100px;
 }
 
 .element {
@@ -24,8 +27,7 @@ body {
 }
 
 section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+
 }
 
 header {
@@ -99,7 +101,7 @@ code {
 
 .nav-link {
   font-family: neue-haas-unica, sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   font-size: 1.2rem;
   font-style: normal;
   padding: .5rem;
@@ -233,7 +235,7 @@ top: 0px; */
   box-sizing: border-box;
   width: 300px;
   height: 430px;
-  margin: 2rem;
+  margin: 4rem;
 }
 
 .product-price {
@@ -267,7 +269,7 @@ top: 0px; */
   /* filter: drop-shadow(10px 10px 4px #888888); */
   box-shadow:
     -25px -25px 0 -2px #FEFFF6,
-    -25px -25px 0 0 #977765,
+    -25px -25px 0 0 #AB523C,
     5px 5px 5px 0 #888888;
   transition:
     box-shadow ease-in 150ms;
@@ -281,7 +283,7 @@ top: 0px; */
 .product-image-pic:hover {
   box-shadow:
     2px -2px 0 -2px #FEFFF6,
-    -2px -2px 0 0 #977765,
+    -2px -2px 0 0 #AB523C,
     2px 2px 5px 0 #888888;
 }
 
@@ -323,7 +325,7 @@ top: 0px; */
   margin-left: -3rem;
   margin-top: -3rem;
   background-color: #FEFFF6;
-  border: 2px solid #977765;
+  border: 2px solid #AB523C;
   position: absolute;
   z-index: 10;
 
@@ -342,6 +344,11 @@ top: 0px; */
 
 .image-container {
   position: relative;
+}
+
+.startpage {
+  margin-top:10vh;
+  margin-left:5vw;
 }
 
 .checkout-section {
@@ -522,8 +529,6 @@ top: 0px; */
 
 @media screen and (max-width:700px) {
   .body {
-    margin-left: 0;
-    margin-top: 100px;
   }
 
   html {
@@ -553,8 +558,13 @@ top: 0px; */
   }
 
   .product-image-pic {
-    width: 60%;
+    width: 130%;
     height: auto;
+    margin-bottom: 2rem;
+    box-shadow:
+      -10px -10px 0 -2px #FEFFF6,
+      -10px -10px 0 0 #AB523C,
+      5px 5px 5px 0 #888888;
   }
 
   .product-bottom {
@@ -571,11 +581,11 @@ top: 0px; */
 
   .product-listing-box {
     box-sizing: border-box;
-    max-width: 150px;
+    max-width: 250px;
     height: 300px;
     margin: 3rem;
-    margin-right: 6rem;
-    margin-left: -8rem;
+    margin-right: 10rem;
+
   }
 
   .HomeBanner img {

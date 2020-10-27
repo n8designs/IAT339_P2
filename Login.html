@@ -15,39 +15,43 @@
   <link href="css/topbannernav.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
   <link href="css/forms.css" rel="stylesheet">
+  <link href="css/navtotop.css" rel="stylesheet">
+  <script type="text/javascript" src="js/main.js" defer async></script>
 </head>
-<div class="banner flexbox-row">
-  <div class="banner-item-left">
-    <a class="nav-link" href="HomePage.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
 
+<body>
+  <nav class="banner bannercolor flexbox-row2 bannerbackground">
+    <div class="banner-logo">
+      <a class="nav-link" href="DivineHome.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
+    </div>
+
+    <div class="flexbox-row2 hidden" id="hamborgorstuffing">
+      <ul class="banner-item-left">
+        <li class="nav-list"> <a class="nav-link" href="products.html"> Products</a> </li>
+        <li class="nav-list"> <a class="nav-link" href="ContactUs.html"> Contact </a> </li>
+          <li class="nav-list"> <a class="nav-link" href="DivineHome.html#aboutdivine"> About </a> </li>
+      </ul>
+
+      <ul class="banner-item-right">
+
+        <li class="nav-list"> <a class="nav-link" href="Checkout.html"> Cart </a> </li>
+        <li class="nav-list"> <a class="nav-link" href="Login.html"> Login </a> </li>
+      </ul>
+    </div>
+
+    <button id="hamborgor">&#9776;</button>
+  </nav>
+
+  <div class="box">
+    <form action="products.html" method="post">
+      <h1>Login</h1>
+      <input type="text" name="" placeholder="UserName">
+      <input type="password" name="" value="" placeholder="password">
+      <input type="submit" name="" value="Login">
+    </form>
   </div>
 
-  <div class="banner-item-left">
-    <a href="products.html" class="nav-link"> Products</a>
-  </div>
+    <a class="top-link hide regbut" href="" id="topButton">
+</body>
 
-  <div class="banner-item-left">
-
-    <a class="nav-link" href="ContactUs.html"> Contact </a>
-  </div>
-  <div class="banner-item-left">
-    <a class="nav-link" href="about.html"> About </a>
-
-  </div>
-
-  <div class="banner-item-left">
-    <a class="nav-link" href="Checkout.html"> Cart </a>
-  </div>
-  <div class="banner-item-left ">
-    <a class="nav-link" href="Login.html"> Login </a>
-  </div>
-
-</div>
-<div class="box">
-  <form action="products.html" method="post">
-    <h1>Login</h1>
-    <input type="text" name="" placeholder="UserName">
-    <input type="password" name="" value="" placeholder="password">
-    <input type="submit" name="" value="Login">
-  </form>
-</div>
+</html>
