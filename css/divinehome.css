@@ -1,0 +1,182 @@
+body,
+html {
+  width:100%;
+  height:100%;
+  margin:0;
+}
+
+.homecontainer {
+  width:100%;
+  height:100%;
+}
+
+.bannercolor {
+  
+  background-color:#AB523C;
+}
+
+.maintitle {
+  position: absolute;
+  margin-left: 20vw;
+  margin-top:30vh;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: #EFAD4B;
+
+  font-size: 8rem;
+}
+
+.mainimage {
+  position: absolute;
+  margin-left: 38vw;
+  margin-top:55vh;
+  width: 30vw;
+  max-width:400px;
+  height: auto;
+  transform:translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+
+.mainimage :hover{
+  transform:translateY(500px);
+
+}
+
+.mainbutton {
+  position: absolute;
+  background-color: transparent;
+  font-size:2rem;
+  margin-left: 45vw;
+  margin-top:45vh;
+    border: 5px solid #EFAD4B;
+}
+
+.classyimage {
+  position: absolute;
+  margin-left: 38vw;
+  margin-top:55vh;
+  width: 30vw;
+  max-width:555px;
+  height: auto;
+  transform:translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.classybutton {
+  position: absolute;
+  background-color: transparent;
+  font-size:2rem;
+  margin-left: 83vw;
+  margin-top:70vh;
+  border: 5px solid #C52E2A;
+  color: #C52E2A;
+}
+
+.boldimage {
+
+  position: absolute;
+  margin-left: 60vw;
+  margin-top:55vh;
+  width: 30vw;
+  max-width:450px;
+  height: auto;
+  transform:translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.boldbutton {
+  position: absolute;
+  background-color: transparent;
+  font-size:2rem;
+  margin-left: 45vw;
+  margin-top:70vh;
+border: 5px solid #EFAD4B;
+color:#EFAD4B;
+}
+
+.adventurousimage{
+
+    position: absolute;
+    margin-left: 37vw;
+    margin-top:45vh;
+    width: 30vw;
+    max-width:585px;
+    height: auto;
+    transform:translateZ(0);
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.adventurousbutton{
+  position: absolute;
+  background-color: transparent;
+  font-size:2rem;
+  margin-left: 83vw;
+  margin-top:70vh;
+border: 5px solid #871A21;
+color:#871A21;
+}
+
+
+.aboutsubtitle{
+  position: absolute;
+  margin-left: 15vw;
+  margin-top:25vh;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: #2C2C2C;
+
+  font-size: 4rem;
+}
+
+.abouttitle{
+  position: absolute;
+  margin-left: 15vw;
+  margin-top:30vh;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: #2C2C2C;
+
+  font-size: 8rem;
+}
+
+.abouttext {
+  position: absolute;
+  margin-left:15vw;
+  margin-top:45vh;
+  box-sizing: border-box;
+  max-width:700px;
+  width:40vw;
+  height:auto;
+}
+
+
+#divinewelcome {
+  background-image:url("../images/divinewelcome.png");
+  background-color:#AB523C;
+    background-repeat: no-repeat;
+}
+
+#fruitchocolates {
+  background-image:url("../images/classy.png");
+  background-color:#8D7066;
+    background-repeat: no-repeat;
+}
+#darkchocolates {
+  background-image:url("../images/bold.png");
+background-color:#311D23;
+  background-repeat: no-repeat;
+}
+#rubychocolates {
+  background-image:url("../images/adventurous.png");
+  background-color:#E9C3B1;
+  background-repeat: no-repeat;
+}
+
+#aboutdivine {
+  background-color:#EFAD4B;
+}

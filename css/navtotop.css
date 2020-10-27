@@ -1,0 +1,66 @@
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  /* border-radius: 50%; */
+  padding: .25em;
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+
+.top-link .show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.top-link .hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.regbut {
+  background-image: url("../images/regularbutton.png");
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.regbut:hover {
+  transform: scale(0.9);
+}
+
+.rubybut {
+  background-image: url("../images/advenbutton.png");
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.rubybut:hover {
+  transform: scale(0.9);
+}
+
+.fruitbut {
+  background-image: url("../images/classybutton.png");
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.fruitbut:hover {
+  transform: scale(0.9);
+}
+
+.darkbut {
+  background-image: url("../images/boldbutton.png");
+  background-repeat: no-repeat;
+  transform: scale(0.8);
+}
+
+.darkbut:hover {
+  transform: scale(0.9);
+}
