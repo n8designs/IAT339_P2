@@ -215,30 +215,38 @@ margin-left:12vw;
 .indivproduct-startpage{
 
 }
-@media (max-width: 1388px) {
-  .abouttitle {
-    margin-top: 310px;
+
+@media (max-width: 1070px) {
+  .aboutsubtitle{
+    position: absolute;
+    margin-left: 12vw;
+    margin-top:25vh;
     text-align: left;
-    font-size: 4em;
+    letter-spacing: .3rem;
+    color: #EFAD4B;
+
+    font-size: 4rem;
   }
-  .aboutsubtitle {
+  .aboutsubsubtitle{
+    position: absolute;
+    margin-left: 12vw;
+    margin-top:45vh;
+    letter-spacing: .3rem;
+    color: #EFAD4B;
+    font-weight: 400;
     text-align: left;
-    font-size: 3em;
+    font-size: 2rem;
   }
-  .aboutsubsubtitle {
+
+  .abouttitle{
+    position: absolute;
+    margin-left: 12vw;
+    margin-top:30vh;
     text-align: left;
-    font-size: 2em;
-  }
-}
-@media (max-width:1121px) {
-  .productnav {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 740px) {
-  .aboutsubsubtitle {
-    text-align: left;
-    font-size: 2em;
+    letter-spacing: .3rem;
+    color: #EFAD4B;
+
+    font-size: 4rem;
   }
 }
 @media (max-width:700px) {
@@ -246,18 +254,36 @@ margin-left:12vw;
   visibility: hidden;
 }
 
-.abouttitle {
-  margin-top: 310px;
+.aboutsubtitle{
+  position: absolute;
+  margin-left: 10vw;
+  margin-top:25vh;
   text-align: left;
-  font-size: 4em;
+  letter-spacing: .3rem;
+  color: #EFAD4B;
+
+  font-size: 2rem;
 }
-.aboutsubtitle {
+.aboutsubsubtitle{
+  position: absolute;
+  margin-left: 10vw;
+  margin-top:45vh;
+  letter-spacing: .3rem;
+  color: #EFAD4B;
+  font-weight: 400;
   text-align: left;
-  font-size: 3em;
+  font-size: 1rem;
 }
-.aboutsubsubtitle {
+
+.abouttitle{
+  position: absolute;
+  margin-left: 10vw;
+  margin-top:30vh;
   text-align: left;
-  font-size: 2em;
+  letter-spacing: .3rem;
+  color: #EFAD4B;
+
+  font-size: 2rem;
 }
 .start-page {
   margin-top: 25rem;
@@ -267,7 +293,26 @@ margin-left:12vw;
   margin-left: 20px;
   margin-top: 100px;
 }
+}
+
+@media (max-width:451px) {
+  .abouttitle {
+    font-size: 2em;
+  }
+}
 
 
+@media (max-width:1195px) {
+  .fullproduct-image-pic {
+    margin-left: 100px;
+    width: 50%;
+  }
 
+  .fullproduct-description {
+    margin-left: 100px;
+  }
+
+  .product-section {
+    margin-left: 7rem;
+  }
 }

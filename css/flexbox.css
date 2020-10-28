@@ -50,7 +50,7 @@ justify-content: space-around;
 .flexbox-row2 {
   display: flex;
 flex-wrap: wrap;
-flex-flow: row;
+flex-flow: column;
 flex-basis:15em;
 flex-grow:2;
 justify-content: space-between;

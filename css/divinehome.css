@@ -184,30 +184,30 @@ background-color:#311D23;
 
 }
 
-@media (max-width: 1489px) {
-  .maintitle {
-    font-size: 6rem;
-  }
 
-}
-
-@media (max-width:1145px) {
-  .maintitle {
-    font-size: 4rem;
-  }
-}
-@media (max-width:788px) {
-  .maintitle {
-    margin-right: 100px;
-  }
-}
 @media (max-width:700px) {
   .maintitle {
-    margin-right: 100px;
+    position: absolute;
+    margin-left: 5vw;
+    margin-top:30vh;
+    text-align: center;
+    letter-spacing: .3rem;
+    color: #EFAD4B;
+
     font-size: 4rem;
+  }
+
+  .mainbutton {
+    position: absolute;
+    background-color: transparent;
+    font-size:2rem;
+    margin-left: 37vw;
+    margin-top:45vh;
+      border: 5px solid #EFAD4B;
   }
   .abouttext {
     font-size: 1rem;
   }
+
 
 }
