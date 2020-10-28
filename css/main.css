@@ -73,6 +73,7 @@ code {
   text-decoration: none;
   transition-property: color border;
   transition-duration: 0.5s;
+
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -567,6 +568,7 @@ top: 0px; */
 
   .product-bottom {
     width: 100px;
+    margin-bottom: 100px;
   }
 
   .product-shift {

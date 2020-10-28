@@ -39,20 +39,6 @@ justify-content: space-around;
   flex-wrap:wrap;
 }
 
-
-
-
-.flexbox-item{
-  box-sizing: border-box;
-}
-
-.space-betwn{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-
-}
-
 @media screen and (max-width:700px) {
 .container-one {
   flex-shrink:3;
@@ -69,5 +55,19 @@ flex-basis:15em;
 flex-grow:2;
 justify-content: space-between;
 }
+
+}
+
+
+
+
+.flexbox-item{
+  box-sizing: border-box;
+}
+
+.space-betwn{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 
 }

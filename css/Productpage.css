@@ -131,7 +131,6 @@ box-shadow:
   position: absolute;
   margin-left: 16vw;
   margin-top:45vh;
-  text-align: center;
   letter-spacing: .3rem;
   color: #EFAD4B;
   font-weight: 400;
@@ -216,23 +215,59 @@ margin-left:12vw;
 .indivproduct-startpage{
 
 }
-
-
-
+@media (max-width: 1388px) {
+  .abouttitle {
+    margin-top: 310px;
+    text-align: left;
+    font-size: 4em;
+  }
+  .aboutsubtitle {
+    text-align: left;
+    font-size: 3em;
+  }
+  .aboutsubsubtitle {
+    text-align: left;
+    font-size: 2em;
+  }
+}
+@media (max-width:1121px) {
+  .productnav {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 740px) {
+  .aboutsubsubtitle {
+    text-align: left;
+    font-size: 2em;
+  }
+}
 @media (max-width:700px) {
-/* .productnav {
-  width:1000px;
-  height: 20rem;
-  top:70px;
-  position: fixed;
-  margin-bottom: 10rem;
-} */
+ .productnav {
+  visibility: hidden;
+}
+
+.abouttitle {
+  margin-top: 310px;
+  text-align: left;
+  font-size: 4em;
+}
+.aboutsubtitle {
+  text-align: left;
+  font-size: 3em;
+}
+.aboutsubsubtitle {
+  text-align: left;
+  font-size: 2em;
+}
 .start-page {
   margin-top: 25rem;
 }
 
 .sectiontitle {
-  margin-left:0;
+  margin-left: 20px;
+  margin-top: 100px;
 }
+
+
 
 }

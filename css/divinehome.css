@@ -11,7 +11,7 @@ html {
 }
 
 .bannercolor {
-  
+
   background-color:#AB523C;
 }
 
@@ -179,4 +179,32 @@ background-color:#311D23;
 
 #aboutdivine {
   background-color:#EFAD4B;
+}
+
+@media (max-width: 1489px) {
+  .maintitle {
+    font-size: 6rem;
+  }
+
+  .mainbutton {
+
+    font-size:2rem;
+  }
+}
+
+@media (max-width:1145px) {
+  .maintitle {
+    font-size: 4rem;
+  }
+}
+@media (max-width:788px) {
+  .maintitle {
+    margin-right: 100px;
+  }
+}
+@media (max-width:700px) {
+  .maintitle {
+    margin-right: 100px;
+    font-size: 4rem;
+  }
 }
