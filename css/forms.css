@@ -1,31 +1,29 @@
 fieldset {
   border: 1px solid black;
-  border-radius: 6px;
-  padding: 24px 30px;
-
+  border-radius: 1.6em;
+  padding: 2.4vw 3vw;
 }
 
-legend {
+legend {}
 
-}
 .payment-form-border {
-  padding: 50px;
-
+  padding: 2vw;
+  margin-top: 10vw;
 }
 
-.payment-form-border h3 {
-
-}
+.payment-form-border h3 {}
 
 .payment-form-border label {
-display: inline-block;
-margin-right:2rem;
-font-weight:bold;
-margin-bottom:20px;
+  display: inline-block;
+  margin-right: 2rem;
+  font-weight: bold;
+  margin-bottom: 1vw;
 }
 
 .payment-form-border input {
-display: block;
-margin-top:5px;
-padding: 1rem;
+  display: block;
+  margin-top: 1vw;
+  padding: 1rem;
+  font-size: 1rem;
+}
 }

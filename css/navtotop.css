@@ -64,3 +64,41 @@
 .darkbut:hover {
   transform: scale(0.9);
 }
+
+@media (max-width:700px) {
+  .top-link {
+    margin: 0 0.5rem 0.5rem 0;
+  }
+
+  .regbut {
+    transform: scale(0.7);
+  }
+
+  .regbut:hover {
+    transform: scale(0.75);
+  }
+
+  .rubybut {
+    transform: scale(0.7);
+  }
+
+  .rubybut:hover {
+    transform: scale(0.75);
+  }
+
+  .fruitbut {
+    transform: scale(0.7);
+  }
+
+  .fruitbut:hover {
+    transform: scale(0.75);
+  }
+
+  .darkbut {
+    transform: scale(0.7);
+  }
+
+  .darkbut:hover {
+    transform: scale(0.75);
+  }
+}
