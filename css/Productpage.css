@@ -170,6 +170,17 @@
   font-size: 8rem;
 }
 
+.darktitle {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 30vh;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: #EFAD4B;
+  visibility: hidden;
+  font-size: 8rem;
+}
+
 .darksubtitle {
   position: absolute;
   margin-left: 9vw;
@@ -179,6 +190,17 @@
   color: #EFAD4B;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.rubytitle {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 30vh;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: #871A21;
+  visibility: hidden;
+  font-size: 8rem;
 }
 
 .rubysubtitle {
@@ -213,7 +235,14 @@
   display: block;
 }
 
-.indivproduct-startpage {}
+.indivproduct-startpage {
+
+}
+@media (max-width:1190px) {
+  .productnav {
+    visibility: hidden;
+  }
+}
 
 @media (max-width:700px) {
   .productnav {
@@ -275,60 +304,80 @@
   #confectionary {
     background-image: none;
     background-color: #AB523C;
-    height: 50vw;
+    height: 100vw;
   }
 
   #fruitproducts {
     background-image: none;
     background-color: #8D7066;
-    height: 40vw;
+    height: 30vh;
   }
 
   #darkproducts {
     background-image: none;
     background-color: #311D23;
-    height: 40vw;
+    height: 30vh;
   }
 
   #rubyproducts {
     background-image: none;
     background-color: #E9C3B1;
-    height: 40vw;
+    height: 30vh;
+  }
+
+
+  .fruittitle {
+    text-align: left;
+    visibility: visible;
+    font-size: 10vw;
+    margin-top: 9vh;
+    margin-left: 3vw;
   }
 
   .fruitsubtitle {
-    position: absolute;
-    margin-left: 9vw;
-    margin-top: 67vh;
-    text-align: center;
+    position:absolute;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    text-align: left;
     letter-spacing: .3rem;
     color: #C52E2A;
     font-weight: 400;
     font-size: 2rem;
   }
 
-  .fruittitle {
-    visibility: visible;
-    font-size: 10vw;
-    margin-top: 18vh;
-  }
 
   .darksubtitle {
-    position: absolute;
-    margin-left: 9vw;
-    margin-top: 90vh;
-    text-align: center;
+    position:absolute;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    text-align: left;
     letter-spacing: .3rem;
     color: #EFAD4B;
     font-weight: 400;
     font-size: 2rem;
   }
 
+  .darktitle {
+    text-align: left;
+    visibility: visible;
+    font-size: 10vw;
+    margin-top: 9vh;
+    margin-left: 3vw;
+  }
+
+  .rubytitle {
+    text-align: left;
+    visibility: visible;
+    font-size: 10vw;
+    margin-top: 9vh;
+    margin-left: 3vw;
+  }
+
   .rubysubtitle {
-    position: absolute;
-    margin-left: 5vw;
-    margin-top: 70vh;
-    text-align: center;
+    position:absolute;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    text-align: left;
     letter-spacing: .3rem;
     color: #871A21;
     font-weight: 400;
