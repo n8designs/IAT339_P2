@@ -194,6 +194,7 @@ code {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.5rem;
 }
 
 .list-holder {}
@@ -512,6 +513,12 @@ top: 0px; */
   }
 }
 
+@media screen and (max-width:1910px) {
+  .form {
+    margin-top: 60vw;
+  }
+}
+
 @media screen and (max-width:700px) {
   .checkout-boxshadow {
     visibility: hidden;
@@ -524,7 +531,7 @@ top: 0px; */
   }
 
   .form {
-    margin-top: 80vw;
+    margin-top: 60vh;
   }
 
   .product-image-pic {
@@ -560,6 +567,7 @@ top: 0px; */
     margin-top: 3rem;
     padding-bottom: 10vh;
     margin-right: 10rem;
+    margin-bottom: 15vh;
   }
 
   .checkout-name {
@@ -682,6 +690,10 @@ top: 0px; */
     height: auto;
     margin-top: -1.3rem;
   }
+  .legend {
+    margin-top: 10vh;
+  }
+
 }
 
 /* @media (max-width:1200px) {

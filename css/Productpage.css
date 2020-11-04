@@ -245,6 +245,7 @@
 }
 
 @media (max-width:700px) {
+
   .productnav {
     visibility: hidden;
   }
@@ -304,7 +305,7 @@
   #confectionary {
     background-image: none;
     background-color: #AB523C;
-    height: 100vw;
+    height: 30vh;
   }
 
   #fruitproducts {
@@ -392,6 +393,8 @@
   .fullproduct-image-pic:hover {
     box-shadow: none;
   }
+
+
 }
 
 @media (max-width:1195px) {
@@ -406,5 +409,6 @@
 
   .product-section {
     margin-left: 10vw;
+
   }
 }

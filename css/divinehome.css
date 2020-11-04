@@ -75,7 +75,7 @@ html {
   position: absolute;
   background-color: transparent;
   font-size: 2rem;
-  margin-left: 83vw;
+  margin-left: 85vw;
   margin-top: 70vh;
   border: 5px solid #C52E2A;
   color: #C52E2A;
@@ -108,7 +108,7 @@ html {
   position: absolute;
   background-color: transparent;
   font-size: 2rem;
-  margin-left: 45vw;
+  margin-left: 85vw;
   margin-top: 70vh;
   border: 5px solid #EFAD4B;
   color: #EFAD4B;
@@ -141,7 +141,7 @@ html {
   position: absolute;
   background-color: transparent;
   font-size: 2rem;
-  margin-left: 83vw;
+  margin-left: 85vw;
   margin-top: 70vh;
   border: 5px solid #871A21;
   color: #871A21;
@@ -150,7 +150,7 @@ html {
 .aboutsubtitle {
   position: absolute;
   margin-left: 15vw;
-  margin-top: 25vh;
+  margin-top: 20vh;
   text-align: center;
   letter-spacing: .3rem;
   color: #2C2C2C;
@@ -160,7 +160,7 @@ html {
 .abouttitle {
   position: absolute;
   margin-left: 15vw;
-  margin-top: 30vh;
+  margin-top: 25vh;
   text-align: center;
   letter-spacing: .3rem;
   color: #2C2C2C;
@@ -170,10 +170,10 @@ html {
 .abouttext {
   position: absolute;
   margin-left: 15vw;
-  margin-top: 45vh;
+  margin-top: 40vh;
   box-sizing: border-box;
-  max-width: 700px;
-  width: 40vw;
+  max-width: 1400px;
+  width: 50vw;
   height: auto;
 }
 
@@ -225,8 +225,16 @@ html {
     border: 5px solid #EFAD4B;
   }
 
+  .mainimage {
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 20vw;
+  }
+
   .abouttext {
+    margin-top: 45vh;
     font-size: 1rem;
+    margin-bottom: 10vh;
   }
 
   #fruitchocolates {
@@ -247,17 +255,19 @@ html {
 
   .classyimage {
     width: 70vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
   }
+
 
   .boldimage {
     width: 60vw;
-    margin-left: 10vw;
+    margin-left: 20vw;
   }
 
   .adventurousimage {
     width: 60vw;
-    margin-top: 60vh;
+    margin-top: 50vh;
+    margin-left: 20vw;
   }
 
   .boldbutton {
@@ -277,13 +287,31 @@ html {
 
   .classytitle {
     visibility: visible;
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 4rem;
   }
 
   .boldtitle {
     visibility: visible;
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 4rem;
   }
 
   .adventuroustitle {
     visibility: visible;
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 4rem;
   }
 }
