@@ -24,6 +24,15 @@
   justify-content: space-around;
 }
 
+.flexbox-row-banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  flex-basis: 15em;
+  flex-grow: 2;
+  justify-content: space-around;
+}
+
 .flexbox-item {
   box-sizing: border-box;
 }

@@ -24,6 +24,44 @@ body {
 
 section {}
 
+footer {
+  background-color: #AB523C;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.footdetails {
+  position: absolute;
+  margin-left: 13vw;
+}
+
+.footerlink {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-size: 1.2vw;
+  font-style: normal;
+  padding: .5rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  color: #FBC402;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition:
+    color ease-in 100ms;
+}
+
+.footerlink:hover {
+  color: #3F3F3D;
+}
+
+.foot-list {
+  display: inline-block;
+}
+
 header {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -204,6 +242,11 @@ code {
 .main-title {
   font-size: 300%;
   color: #FBC402;
+}
+
+.cite {
+  margin-top: 5vw;
+  margin-left: 5vw;
 }
 
 /*
@@ -524,6 +567,10 @@ top: 0px; */
     visibility: hidden;
   }
 
+  .cite {
+    margin-top: 10vh;
+  }
+
   .body {}
 
   html {
@@ -532,6 +579,14 @@ top: 0px; */
 
   .form {
     margin-top: 60vh;
+  }
+
+  .footdetails {
+    margin-left: 10vw;
+  }
+
+  .footerlink {
+    font-size: 4vw;
   }
 
   .product-image-pic {
@@ -690,69 +745,8 @@ top: 0px; */
     height: auto;
     margin-top: -1.3rem;
   }
+
   .legend {
     margin-top: 10vh;
   }
-
 }
-
-/* @media (max-width:1200px) {
-.checkout-section {
-  width: 60vw;
-  height: 10vw;
-  margin-bottom: 18rem;
-}
-
-.checkout-details p {
-  margin-left: 7rem;
-}
-
-.checkout-name {
-  margin-left: 100px;
-}
-
-.checkout-item {
-  width: 40vw;
-}
-
-.pay-button {
-  margin: 2rem;
-}
-.checkout-checkbox {
-  margin-left: 200px;
-  padding-left: 10rem;
-  display: inline-block;
-}
-} */
-/* @media (max-width:400px) {
-.checkout-section {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 18rem;
-}
-
-.checkout-details p {
-  margin-left: 100px;
-}
-
-.checkout-name {
-  margin-left: 100px;
-}
-
-.checkout-item {
-  width: 275px;
-}
-
-.checkout-price {
-  padding-left: 1px;
-  font-size: 1.2rem;
-  display: inline-block;
-}
-.pay-button {
-  margin: 2rem;
-}
-.checkout-checkbox {
-  margin-left: 100px;
-  display: inline-block;
-}
-} */

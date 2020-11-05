@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
 
@@ -7,627 +7,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
 
-  <title>P01 - Style Guide for Divine Chocolatier</title>
-
+  <title>Home | Divine Chocolatier</title>
+  <!-- <link rel="stylesheet" href="css/LoginStyle.css"> -->
   <link href="fonts/Rockwell/rockwell.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/fjw1qfk.css">
-  <link rel="stylesheet" href="css/LoginStyle.css">
+  <link href="css/parallax.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/forms.css" rel="stylesheet">
-  <link href="css/flexbox.css" rel="stylesheet">
-  <link href="css/styleguide.css" rel="stylesheet">
+  <link rel="icon" href="images/headericon.png">
+  <link href="css/divinehome.css" rel="stylesheet">
+  <link href="css/topbannernav.css" rel="stylesheet">
 
+  <link href="css/flexbox.css" rel="stylesheet">
+  <link href="css/forms.css" rel="stylesheet">
+  <link href="css/navtotop.css" rel="stylesheet">
+  <script type="text/javascript" src="js/main.js" defer async></script>
 </head>
 
 <body>
 
-  <header>
-    <h1 class="main-title">P01 - Style Guide for Divine Chocolatier</h1>
-
-    <p class="para-text">This is a styleguide for Divine Chocolatier. Website found here: <a class="text-link" href="https://www.divinechocolatier.com/en">https://www.divinechocolatier.com/en </a></p>
-    <p class="para-text"> This is a style guide made by Nathan Tanciangco 301314618 & Sihao (Andy) Guan 301280237
-    <h2> What is Divine Chocolatier? </h2>
-    <p class="para-text">Divine chocolatier offers artisanal handmade chocolates, with a selection of gift boxes or indiivdual chocolates. </p>
-    <p class="para-text">Potential customers
-      would be chocolate lovers from people looking for a gift for a
-      friend or looking for a treat for themselves. They also specialize in creating gift boxes for weddings or parties, so party planners are also a potential customer. </p>
-
-    <p class="para-text">The appeal of how the product is showcase is how it would entice people to purchase the product. This would mean showing high close up details of the chocolates,
-      framing them so they look delicious enough that that the customer wants them.</p>
-
-    <h2>In-Page Navigation</h2>
-    <nav>
-      <a class="nav-link" href="#interactive_elements">Interactive Elements</a>
-
-      <a class="nav-link" href="#text_elements">Text Elements</a>
-      <a class="nav-link" href="#combined_elements">Combined Elements</a>
-      <a class="nav-link" href="#product_listing">Product Listing Template</a>
-      <a class="nav-link" href="#checkout-cart">Checkout Template</a>
-      <a class="nav-link" href="#payment">Payment Form</a>
-      <a class="nav-link" href="#brandingconcepts">Branding Concepts</a>
-      <a class="nav-link" href="#Fonts">Fonts</a>
-      <a class="nav-link" href="#Templates">Templates</a>
-      <a class="nav-link" href="#citations">Citations</a>
-    </nav>
-
-    <h2>Navigation to Template Pages</h2>
-    <nav>
-      <a class="button-nav" href="products.html">Product Display</a>
-      <a class="button-nav" href="GiandujaBar.html">Product Selected</a>
-      <a class="button-nav" href="Checkout.html">Cart Checkout</a>
-      <a class="button-nav" href="Payment.html">Payment</a>
-      <a class="button-nav" href="DivineHome.html">Home Page</a>
-      <a class="button-nav" href="ContactUs.html">Contact Us</a>
-      <a class="button-nav" href="Login.html">Login</a>
-      <a class="button-nav" href="DivineHome.html#aboutdivine">About</a>
-    </nav>
-  </header>
-
-  <!-- INTERACTIVE ELEMENTS SECTION // -->
-  <section id="interactive_elements">
-    <h2>Interactive Elements</h2>
-
-
-    <section class="element">
-      <h3>In-text link</h3>
-      <h4>CSS selector:</h4>
-      <p>.text-link</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;a href="#" class="text-link"&gt;click me&lt;/a&gt;</code>
-
-      <h4>Rendered element:</h4>
-
-      <a href="" class="text-link">click me </a>
-    </section>
-
-
-    <!-- Default Button styling section -->
-    <section class="element">
-
-      <h3>Navigation Link</h3>
-      <h4>CSS selector:</h4>
-      <p>.nav-link</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;nav&gt;</code>
-      <code>&lt;a href="#" class="nav-link"&gt;navigate1 &lt;/a&gt;</code>
-      <code>
-        &lt;a href="#" class="nav-link"&gt;navigate2&lt;/a&gt;</code>
-      <code>
-        &lt;/nav&gt;
-      </code>
-
-
-      <h4>Rendered element:</h4>
-      <nav>
-        <a class="nav-link" href="#">
-          navigate1
-        </a>
-        <a class="nav-link" href="#">
-          navigate2
-        </a>
-      </nav>
-
-      <h4>CSS selector:</h4>
-      <p>.button-nav</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <a class="button-nav" href="#">Default Button</a>
-
-    </section>
-
-
-    <section class="element">
-      <h3>Submit/Reset Buttons</h3>
-      <h4>CSS selector:</h4>
-      <p>.input-button</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;input type="submit" value="Submit" class="input-button">&gt;&lt;/input&gt;</code>
-      <code>&lt;input type="reset" value="Reset" class="input-button">&gt;&lt;/input&gt;</code>
-      <h4>Rendered element:</h4>
-      <input type="submit" value="Submit" class="input-button">
-      <input type="reset" value="Reset" class="input-button">
-    </section>
-
-
-    <section class="element">
-      <h3>Text Input Field with Label</h3>
-      <h4>CSS selector:</h4>
-      <p>.text-input-label</p>
-      <p>.text-input-field</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;label for="name" class="text-input-label"&gt;Input Title: &lt;/label&gt;</code>
-      <code>&lt;input type="text" id="name" name="name" class="text-input-field"&gt;</code>
-      <h4>Rendered element:</h4>
-      <label for="name"> Input Title: </label>
-      <input type="text" id="name" name="name">
-    </section>
-
-
-    <section class="element">
-      <h3>Radio Button with Label</h3>
-
-      <h4>CSS selector:</h4>
-      <p>.radio-button</p>
-      <p>.radio-label</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;input type="radio" id="select" name="select" value="select me" class="radio-button"&gt;</code>
-      <code>&lt;label for="select" class="radio-label"&gt; Select Me &lt;/label&gt;</code>
-      <code>&lt;input type="radio" id="select2" name="select2" value="select me" class="radio-button"&gt;</code>
-      <code>&lt;label for="select2" class="radio-label"&gt;Select Me Too&lt;/label&gt;</code>
-      <h4>Rendered element:</h4>
-
-      <input type="radio" id="select" name="select" value="select me" class="radio-button">
-      <label for="select" class="radio-label"> Select Me </label>
-      <input type="radio" id="select2" name="select2" value="select me" class="radio-button">
-      <label for="select2" class="radio-label"> Select Me Too </label>
-    </section>
-
-
-    <section class="element">
-      <h3>Image as a Link</h3>
-      <h4>CSS selector:</h4>
-      <p>.image-pic</p>
-      <p>.image-link</p>
-      <h4>Sample code:</h4>
-      <code>&lt;a class ="image-link" href="https://media.istockphoto.com/photos/clown-picture-id533837393?k=6&m=533837393&s=612x612&w=0&h=S8FvcwRl8ZXDk9Xmh5p8kVBaXBBA_I4TILx64ZymBwI="&gt;</code>
-      <code>&lt;img src="images/bar.jpg" alt="hehe a clown" class="image=pic"&gt;</code>
-      <h4>Rendered element:</h4>
-
-
-      <!-- // From w3schools -->
-      <a class="image-link" href="https://media.istockphoto.com/photos/clown-picture-id533837393?k=6&m=533837393&s=612x612&w=0&h=S8FvcwRl8ZXDk9Xmh5p8kVBaXBBA_I4TILx64ZymBwI=">
-        <img src="images/bar.jpg" alt="hehe a clown" class="image-pic">
-      </a>
-    </section>
-
-
-  </section>
-  <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-  <!-- TEXT ELEMENTS SECTION // -->
-  <section id="text_elements">
-    <h2>Text Elements</h2>
-
-    <section class="element">
-      <h3>Headings</h3>
-      <h4>CSS selector:</h4>
-      <p>.h1-heading</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;h1 class="h1-heading"&gt;H1 Heading&lt;/h1&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <h1 class="h1-heading"> H1 Heading</h1>
-      <h4>CSS selector:</h4>
-      <p>.h2-heading</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;h2 class="h2-heading"&gt;H2 Heading&lt;/h2&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <h2 class="h2-heading"> H2 Heading</h2>
-      <h4>CSS selector:</h4>
-      <p>.h3-heading</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;h3 class="h3-heading"&gt;H3 Heading&lt;/h3&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <h3 class="h3-heading"> H3 Heading</h3>
-      <h4>CSS selector:</h4>
-      <p>.h4-heading</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;h4 class="h4-heading"&gt;H4 Heading&lt;/h4&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <h4 class="h4-heading"> H4 Heading</h4>
-
-
-    </section>
-
-    <section class="element">
-      <h3>Paragraphs</h3>
-      <h4>CSS selector:</h4>
-      <p>.para-text</p>
-
-      <h4>Sample code:</h4>
-      <code>&lt;p class="para-text"&gt;text here&lt;/p&gt;</code>
-
-      <h4>Rendered element:</h4>
-      <p class="para-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </section>
-
-    <section class="element">
-      <h3>Numbered Lists</h3>
-      <h4>CSS selector:</h4>
-      <p>.list-holder</p>
-      <p>.list-item</p>
-
-      <h4>Sample code:</h4>
-
-      <code>&lt;ol class="list-holder"&gt;</code>
-      <code>&lt;li class="list-item"&gt;One&lt;/li&gt;</code>
-      <code>&lt;li class="list-item"&gt;two&lt;/li&gt;</code>
-      <code>&lt;/ol&gt;</code>
-      <h4>Rendered element:</h4>
-      <ol class="list-holder">
-        <li class="list-item">One</li>
-        <li class="list-item">Two</li>
-        <li class="list-item">Three</li>
-      </ol>
-    </section>
-
-  </section>
-  <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-  <!-- COMBINED ELEMENTS SECTION // -->
-  <section id="combined_elements">
-    <h2>Combined Elements</h2>
-
-    <section class="element">
-      <h3>Main Navigation</h3>
-      <nav class="nav-bar-background">
-        <a class="nav-link" href="#home"> Home </a>
-        <a class="nav-link" href="#news"> News </a>
-        <a class="nav-link" href="#contact"> Contact </a>
-        <a class="nav-link" href="#about"> About </a>
-      </nav>
-    </section>
-
-
-
-    <!-- Product Listing! -->
-    <!-- This is done by creating each item listing as its own border-box, consisting of a flexbox-construct inside.
-This allowed me to have the atoms within this molecule move around at certain breakpoints and made it easy to copy and paste for multiple of them. -->
-    <section id="product_listing" class="element">
-      <h3>Product/Service Listing</h3>
-      <div class="product-shift">
-
-        <div class="container-one">
-          <div class="product-listing-box flexbox-column">
-            <div class="flex-item">
-              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-            </div>
-            <div class="flex-item">
-
-              <a href="" class="product-name">Product Name </a>
-
-            </div>
-            <div class="flex-item">
-              <p class="para-text">description </p>
-            </div>
-
-            <div class="flex-item  product-bottom">
-              <h1 class="product-price"> $7.65 </h1>
-              <a class="button-nav" href="#">Add to Cart</a>
-            </div>
-          </div>
-
-
-          <div class="product-listing-box flexbox-column">
-            <div class="flex-item">
-              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-            </div>
-            <div class="flex-item">
-
-              <a href="" class="product-name">Product Name </a>
-
-            </div>
-            <div class="flex-item">
-              <p class="para-text">description </p>
-            </div>
-
-            <div class="flex-item  product-bottom">
-              <h1 class="product-price"> $7.65 </h1>
-              <a class="button-nav" href="#">Add to Cart</a>
-            </div>
-          </div>
-
-          <div class="product-listing-box flexbox-column">
-            <div class="flex-item">
-              <img class="product-image-pic" src="images/bar.jpg" alt="bar">
-            </div>
-            <div class="flex-item">
-
-              <a href="" class="product-name">Product Name </a>
-
-            </div>
-            <div class="flex-item">
-              <p class="para-text">description </p>
-            </div>
-
-            <div class="flex-item  product-bottom">
-              <h1 class="product-price"> $7.65 </h1>
-              <a class="button-nav" href="#">Add to Cart</a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-
-    </section>
-
-
-
-
-
-
-    <!-- Payment Form -->
-    <!-- This is a simple payment form -->
-    <section id="payment" class="element">
-      <form>
-        <fieldset class="payment-form-border">
-
-          <legend>
-            <H3>Payment Form</h3>
-          </legend>
-
-          <div>
-            <label for="FullName">Full Name
-              <input type="text" id="FullName" autocomplete="on" placeholder="Jane Doe">
-            </label>
-            <label for="address"> Address
-              <input type="text" id="address" autocomplete="on" placeholder="1234 Street 12 Avenue">
-            </label>
-            <label for="postalcode"> Postal Code
-              <input type="text" id="postalcode" autocomplete="on" placeholder="XXX XXX" maxlength="6">
-            </label>
-            <label for="country"> Country
-              <input type="text" id="country" autocomplete="on" placeholder="Canada">
-            </label>
-            <label for="province"> Province
-              <input type="text" id="province" autocomplete="on" placeholder="BC">
-            </label>
-            <label for="city"> City
-              <input type="text" id="city" autocomplete="on" placeholder="Canada">
-            </label>
-            <label for="email"> Email
-              <input type="email" id="email" autocomplete="on" placeholder="youremail@email.com">
-            </label>
-          </div>
-
-          <div>
-            <label for="ccName">Name on Credit Card
-              <input type="text" id="ccName" autocomplete="on" placeholder="Jane Doe">
-            </label>
-
-
-            <label for="creditcard"> Credit Card
-              <input type="tel" id="creditcard" inputmode="numeric" pattern="[0-9/s]{13,19}" autocomplete="on" maxlength="19" placeholder="XXXX XXXX XXXX XXXX">
-            </label>
-
-            <label for="cvv"> CVV
-              <input type="tel" id="cvv" autocomplete="on" placeholder="XXX" maxlength="3">
-            </label>
-
-            <label for="expdate"> Exp date
-              <input type="date" id="expdate">
-            </label>
-          </div>
-
-
-          <input type="submit" value="Submit" class="input-button">
-
-
-
-        </fieldset>
-      </form>
-    </section>
-
-    <!-- CHECKOUT CART  -->
-    <!-- This was done similarily to the product listings. By encasing everything in a box with flex-box inside I was able to
-create components that moved/shifted and fit everything in the way I wanted it to. -->
-    <section id="checkout-cart" class="element">
-      <h3 class="h3-heading">Checkout Cart</h3>
-      <p class="para-text total-text">Total items: 3</p>
-
-      <div class="flexbox-row checkout-section">
-
-        <div class="checkout-container flexbox-column">
-
-          <div class="checkout-item space-betwn">
-            <div class="image-container">
-              <img class="checkout-details checkout-image" src="images/bar.jpg" alt="bar">
-              <div class="checkout-boxshadow"> </div>
-              <div class="checkout-dropshadow"> </div>
-
-
-              <div class="checkout-details">
-                <label for="item1"><a href="" class="checkout-name"> Item 1</a></label>
-                <p class="checkout-description">Description</p>
-              </div>
-            </div>
-            <div class="checkout-details">
-              <p class="checkout-price ">$5</p>
-              <input class=" checkout-checkbox" type="checkbox" id="item1" name="item1" value="item1">
-            </div>
-          </div>
-          <div class="checkout-item space-betwn">
-            <div class="image-container">
-              <img class="checkout-details checkout-image" src="images/bar.jpg" alt="bar">
-              <div class="checkout-boxshadow"> </div>
-
-
-              <div class="checkout-details">
-                <label for="item1"><a href="" class="checkout-name"> Item 2</a></label>
-                <p class="checkout-description">Description</p>
-              </div>
-            </div>
-            <div class="checkout-details">
-              <p class="checkout-price ">$5</p>
-              <input class=" checkout-checkbox" type="checkbox" id="item2" name="item2" value="item2">
-            </div>
-          </div>
-          <div class="checkout-item space-betwn">
-            <div class="image-container">
-              <img class="checkout-details checkout-image" src="images/bar.jpg" alt="bar">
-              <div class="checkout-boxshadow"> </div>
-
-
-              <div class="checkout-details">
-                <label for="item1"><a href="" class="checkout-name"> Item 3</a></label>
-                <p class="checkout-description">Description</p>
-              </div>
-            </div>
-            <div class="checkout-details">
-              <p class="checkout-price ">$5</p>
-              <input class=" checkout-checkbox" type="checkbox" id="item3" name="item3" value="item2">
-            </div>
-          </div>
-
-
-
+  <nav class="banner bannercolor flexbox-row-banner">
+    <div class="banner-logo">
+      <a class="nav-link" href="index.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
+    </div>
+
+    <div class="flexbox-row2 hidden" id="hamborgorstuffing">
+      <ul class="banner-item-left">
+        <li class="nav-list"> <a class="nav-link" href="products.html"> Products</a> </li>
+        <li class="nav-list"> <a class="nav-link" href="ContactUs.html"> Contact </a> </li>
+        <li class="nav-list"> <a class="nav-link" href="index.html#aboutdivine"> About </a> </li>
+      </ul>
+
+      <ul class="banner-item-right">
+
+        <li class="nav-list"> <a class="nav-link" href="Checkout.html"> Cart </a> </li>
+        <li class="nav-list"> <a class="nav-link" href="Login.html"> Login </a> </li>
+      </ul>
+    </div>
+
+    <div class="hamborgorbutton" id="hamborgor" onclick="openNav()">&#9776;</div>
+  </nav>
+
+  <div id="theSideNav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidenavlist">
+      <a class="nav-link sidenavlink" href="products.html"> Products</a>
+      <ul>
+        <li> <a class="productnav-link sidenavsublink" href="#FeaturedBars">Featured Bars</a> </li>
+        <li> <a class="productnav-link sidenavsublink" href="#ChocolateBars">All Chocolates</a> </li>
+        <li> <a class="productnav-link sidenavsublink" href="fruitproducts.html">Fruit Chocolates</a> </li>
+        <li> <a class="productnav-link sidenavsublink" href="darkproducts.html">Dark Chocolates</a> </li>
+        <li> <a class="productnav-link sidenavsublink" href="rubyproducts.html">Ruby Chocolates</a> </li>
+      </ul>
+      <a class="nav-link sidenavlink" href="ContactUs.html"> Contact </a>
+      <a class="nav-link sidenavlink" href="index.html#aboutdivine"> About </a>
+      <a class="nav-link sidenavlink" href="Checkout.html"> Cart </a>
+      <a class="nav-link sidenavlink" href="Login.html"> Login </a>
+    </div>
+  </div>
+
+
+  <div class="homecontainer">
+    <div class="parallax-container">
+      <section id="divinewelcome">
+        <h1 class="maintitle">Divine Chocolatier</h1>
+        <a class="button-nav mainbutton" href="products.html">Shop Now</a>
+        <img src="images/chocolatetsloose.png" alt="Divine Chocolatier" class="mainimage">
+      </section>
+      <section id="fruitchocolates">
+        <h1 class="classytitle">Classy Fruit Chocolate</h1>
+        <a class="button-nav classybutton" href="fruitproducts.html">Shop Now</a>
+        <img src="images/chocolatestrawberry.png" alt="Divine Chocolatier" class="classyimage">
+      </section>
+      <section id="darkchocolates">
+        <h1 class="boldtitle">Bold Dark Chocolate</h1>
+        <a class="button-nav boldbutton" href="darkproducts.html">Shop Now</a>
+        <img src="images/darkchocolate.png" alt="Divine Chocolatier" class="boldimage">
+      </section>
+      <section id="rubychocolates">
+        <h1 class="adventuroustitle">Adventurous Ruby Chocolate</h1>
+        <a class="button-nav adventurousbutton" href="rubyproducts.html">Shop Now</a>
+        <img src="images/rubychocolates.png" alt="Divine Chocolatier" class="adventurousimage">
+      </section>
+      <section id="aboutdivine">
+        <div class="aboutwrap">
+          <h1 class="aboutsubtitle">We're</h1>
+          <h1 class="abouttitle">Divine.</h1>
+          <p class="para-text abouttext">
+            Divine Chocolatier is Master Chocolatier and wife Chef owned business. We (They) created this business out of love for the finest chocolate possible. If we are going to indulge in dessert we make sure the calories count in the form of
+            extreme decadence pleasure. <br><br>
+
+            Divine Chocolatier is a private company that is not franchised. We make small productions of all our products to ensure constant freshness. All our products are hand produced using only the finest cocoa beans from different regions and
+            are
+            house fused for the best end flavour and aroma. “Divine Chocolatier is an unpretentious boutique that locals love and tourists seek out” (by the Candyatlas). We are proud to serve and ship internationally.
+            <br><br>
+            Chocolate should be judged by the quality of the cocoa beans and not the percentage of the cocoa butter. But in general for a perfect balance of intense flavour of chocolate and the pleasure of the finest dessert we recommend 70 to 72%.
+            <br><br>
+            Divine Chocolatier has had the privilege of serving many known celebrities, to name a few; Jennifer Love Hewitt, Penelope Cruz and husband Javier Bardem, Johnny Depp, William Shatner, Robert De Niro, Pierre Trudeau.
+          </p>
 
         </div>
 
-        <div>
+      </section>
 
-
-          <h1> Total: $15 </h1>
-          <a href="#" class="button-nav">Proceed to Payment</a>
-          <a href="#" class="button-nav">Remove from Cart</a>
+      <footer>
+        <div class="footdetails">
+          <nav>
+            <ul>
+              <li class="foot-list"> <a class="footerlink" href="styleguide.html"> Styleguide</a> </li>
+              <li class="foot-list"> <a class="footerlink" href="citations.html"> Citations</a> </li>
+              <li class="foot-list"> <a class="footerlink" href="https://github.com/n8designs/IAT339_P2/commits/main"> Github </a> </li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </section>
+      </footer>
 
-    <section id="login">
-      <h3 class="h3-heading">Login</h3>
-      <div class="box">
-        <form action="products.html" method="post">
-          <h1>Login</h1>
-          <input type="text" name="" placeholder="UserName">
-          <input type="password" name="" value="" placeholder="password">
-          <input type="submit" name="" value="Login">
-        </form>
-      </div>
-
-    </section>
+    </div>
+  </div>
 
 
-    <section id="contact">
-      <form class="form flexbox-column">
-        <legend>
-          <h1>Contact Us</h1>
-          <p>Ask asks any questions or request anything</p>
-        </legend>
-
-
-        <div>
-          <input type="text" name="" value="" placeholder="First Name">
-          <input type="text" name="" value="" placeholder="Last Name">
-          <input type="text" name="" value="" placeholder="Email Address">
-          <textarea name="name" placeholder="How can we help?" style="height:200px"></textarea>
-          <a href="#" class="button-nav">Submit</a>
-
-
-      </form>
-
-    </section>
-
-  </section>
-  <!-- // COMBINED ELEMENTS SECTION -->
-
-
-
-  <!-- Branding -->
-  <!-- I made these mock-ups in Figma, and tried to replicate the design via code. -->
-  <section id="brandingconcepts" class="element">
-    <h2>Branding Concepts</h2>
-    <h3>Matte Nude-Brown/Cafe</h3>
-    <img src="images/VisualGoal.png" alt="black1" style="width:100%;height:100%;">
-    <img src="images/VisualGoal2.png" alt="black2" style="width:100%;height:100%;">
-    <h3>New Scrollable Homepage/Landing page</h3>
-    <img src="images/NewVisualGoal.png" alt="New visual branding concept, modern" style="width:100%;height:100%;">
-
-  </section>
-
-  <!-- FONTS SECTION -->
-  <section id="Fonts">
-    <h2>Fonts</h2>
-    <h2 class="rockwell-upper">Rockwell</h2>
-    <h1>Uppercase</h1>
-    <h2 class="rockwell-upper">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
-    <h1>Lowercase</h1>
-    <h2 class="rockwell-upper">a b c d e f g h i j k l m n o p q r s t u v w x y z</h2>
-    <h1>Usage:</h1>
-    <h2 class="rockwell-upper">Titles</h2>
-    <h1>Why?</h1>
-    <p class="para-text">Rockwell offers up a big bold sturdy look while also looking elegant and regal. This combination of a strong typeface is what can give Divine Chocolatier a bold new look.</p>
-
-    <h2 class="neue-upper">Neue Haas Unica</h2>
-    <h1>Uppercase</h1>
-    <h2 class="neue-upper">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
-    <h1>Lowercase</h1>
-    <h2 class="neue-upper">a b c d e f g h i j k l m n o p q r s t u v w x y z</h2>
-    <h1>Usage:</h1>
-    <h2 class="neue-upper">Descriptions & Navigation Links</h2>
-    <h1>Why?</h1>
-    <p class="para-text">Neue Haas Unica is a take on the classiv Helvetica, this makes it visually strong and easy to read. The contrast of this san-serif with the slab-serif of Rockwell creates a strong visual pull between the two.</p>
-
-  </section>
-  <!-- End of font section -->
-
-  <!-- TEMPLATE LINKS -->
-  <section id="Templates">
-    <h2>Navigation to Template Pages</h2>
-    <nav>
-      <a class="button-nav" href="products.html">Product Display</a>
-      <a class="button-nav" href="fullproductpage.html">Product Selected</a>
-      <a class="button-nav" href="Checkout.html">Cart Checkout</a>
-      <a class="button-nav" href="Payment.html">Payment</a>
-    </nav>
-  </section>
-
-
-  <!-- CITATIONS -->
-  <section id="citations">
-    <h2>Citations</h2>
-
-    <ul>
-      <li>Animated Login Form using only html and css https://www.youtube.com/watch?v=HV7DtH3J2PU&ab_channel=DarkCode</li>
-      <li>Responsive about us section using html and css https://www.youtube.com/watch?v=8kS1B5iaBmg&feature=emb_logo&ab_channel=DarkCode</li>
-      <li>Contact Us page tutorial https://www.youtube.com/watch?v=jVFaHkCQJjg&t=486s&ab_channel=Codegrid</li>
-      <li>Text Area https://www.w3schools.com/tags/tag_textarea.asp</li>
-      <li>Contact From https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form</li>
-      <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
-      <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
-      <li> Images retrieved from: <a href="https://www.divinechocolatier.com/en"> https://www.divinechocolatier.com/en </a> </li>
-      <li>Adding space between li elements, retrieved from: https://stackoverflow.com/questions/11903773/add-space-between-li-elements</li>
-      <li>Learning how to flexbox, retrieved from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
-      <li>justifycontent, retrieved from: https://css-tricks.com/almanac/properties/j/justify-content/ </li>
-      <li>Flex codepen tutorial, retrieved from:
-        https://codepen.io/HugoGiraudel/embed/9a9ad8fb040f5efaf4e749b49cae7281?height=300&type=result&href=9a9ad8fb040f5efaf4e749b49cae7281&user=HugoGiraudel&safe=true&slug-hash=9a9ad8fb040f5efaf4e749b49cae7281&default-tab=result&animations=run&name=cp_embed_1#result-box
-      </li>
-      <li>Learning how to banner, retrieved from: https://stackoverflow.com/questions/1572701/css-thin-banner-on-top-of-page-like-the-orange-one-on-this-page</li>
-      <li>Gradient code retrieved from: https://cssgradient.io/</li>
-      <li>Guide to navbars, retrieved from: https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535</li>
-      <li>Position fixed retrieved from: https://stackoverflow.com/questions/11399537/how-do-you-make-a-div-follow-as-you-scroll</li>
-      <li>Learning how to align stuff to the right in flex retrieved from: https://stackoverflow.com/questions/59501327/how-to-align-element-to-right-side-of-div-box</li>
-      <li>Learning more about learning to align in flex retrieved from:
-        https://stackoverflow.com/questions/28922126/how-to-align-flexbox-columns-left-and-right#:~:text=4%20Answers&text=You%20could%20add%20justify%2Dcontent,sides%20with%20space%20between%20them.&text=You%20could%20also%20add%20margin,align%20it%20to%20the%20right.
-      </li>
-      <li>Font Neue Haas Unica is from Adobe Fonts</li>
-      <li>Font Rockwell is from Monotype Imagining </li>
-    </ul>
-
-  </section>
-
+  <a class="top-link hide regbut" href="" id="topButton"> </a>
 
 
 

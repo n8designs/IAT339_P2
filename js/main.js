@@ -1,10 +1,10 @@
 //Selecting the button
-const scrollToTopButton= document.getElementById("topButton");
+const scrollToTopButton = document.getElementById("topButton");
 
 // Function works to show scroll-to-top button if we scroll beyond
 // a certain height
 
-const scrollFunc =() => {
+const scrollFunc = () => {
   let y = window.scrollY; // current scroll value
 
   // if scroll value is greater than the window height, add class
@@ -31,11 +31,11 @@ const scrollToTop = () => {
   // animate that scroll with requestAnimationFrame:
   // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
 
-  if (c>0) {
+  if (c > 0) {
     window.requestAnimationFrame(scrollToTop);
     //ScrollTo takes an x and a y coordinate
     // Increase the '10' value to get a smoother/slower scroll
-    window.scrollTo(0,c - c / 10);
+    window.scrollTo(0, c - c / 10);
   }
 };
 
@@ -44,35 +44,38 @@ scrollToTopButton.onclick = function(e) {
   scrollToTop();
 }
 
+const sidenav = document.getElementById("theSideNav");
 
+function openNav() {
+  sidenav.style.width = "100vw";
 
-const hamborgor = document.querySelector("#hamborgor");
-const hamborgorstuffing = document.querySelector("#hamborgorstuffing");
-
-hamborgor.onclick = function(e) {
-  e.preventDefault();
-  eathamborgor();
 }
 
-const eathamborgor = () => {
-// if (hamborgorstuffing.style.display!= "block") {
-// hamborgorstuffing.style.display="block";
-// } else {
-//   hamborgorstuffing.style.display="none";
+function closeNav() {
+  sidenav.style.width = "0";
+}
+
+
+// const hamborgor = document.querySelector("#hamborgor");
+// const hamborgorstuffing = document.querySelector("#hamborgorstuffing");
 //
+// hamborgor.onclick = function(e) {
+//   e.preventDefault();
+//   eathamborgor();
 // }
 //
+// const eathamborgor = () => {
+//
+// if (hamborgorstuffing.classList.contains("display")) {
+//   hamborgorstuffing.classList.remove("display");
+//     hamborgorstuffing.classList.add("hidden");
+// } else  {
+//     hamborgorstuffing.classList.remove("hidden");
+//   hamborgorstuffing.classList.add("display");
 // }
-if (hamborgorstuffing.classList.contains("display")) {
-  hamborgorstuffing.classList.remove("display");
-    hamborgorstuffing.classList.add("hidden");
-} else  {
-    hamborgorstuffing.classList.remove("hidden");
-  hamborgorstuffing.classList.add("display");
-}
-
-
-}
+//
+//
+// }
 
 // //only have the button appear when they have scrolled down
 // window.onscroll = function() {scrollFunction()};
