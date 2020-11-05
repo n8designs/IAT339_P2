@@ -756,8 +756,38 @@ top: 0px; */
   .product-listing-box {
     box-sizing: border-box;
     max-width: 250px;
-    height: 70vw;
-    
+    height: 40vw;
+  }
+  .darksubtitle {
+    visibility: hidden;
+  }
+  .fruitsubtitle {
+    visibility: hidden;
+  }
+  .rubysubtitle {
+    visibility: hidden;
+  }
+  .aboutsubsubtitle {
+    visibility: hidden;
+  }
+}
 
+@media (max-height:834px) {
+  .product-listing-box {
+    box-sizing: border-box;
+    max-width: 250px;
+    height: 30vw;
+  }
+  .darksubtitle {
+    visibility: hidden;
+  }
+  .fruitsubtitle {
+    visibility: hidden;
+  }
+  .rubysubtitle {
+    visibility: hidden;
+  }
+  .aboutsubsubtitle {
+    visibility: hidden;
   }
 }
