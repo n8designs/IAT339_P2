@@ -751,3 +751,13 @@ top: 0px; */
     margin-top: 10vh;
   }
 }
+
+@media (max-height:700px) {
+  .product-listing-box {
+    box-sizing: border-box;
+    max-width: 250px;
+    height: 70vw;
+    
+
+  }
+}
