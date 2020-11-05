@@ -21,6 +21,12 @@ background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%,
   list-style: none;
 }
 
+.hamborgorbutton {
+  font-size: 3rem;
+  cursor: pointer;
+  margin-top: 1vh;
+}
+
 .banner-logo {
   margin-left: 3vw;
   display: block;
@@ -41,6 +47,48 @@ background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%,
 
 #hamborgor {
   display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 6vw;
+}
+
+.sidenavlist {
+  position: relative;
+  top: 25%;
+  text-align: center;
+}
+
+.sidenav a {
+  font-family: 'Rockwell', 'Times New Roman', serif;
+  letter-spacing: .3rem;
+  padding-bottom: 1vh;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #EFAD4B;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 5rem;
+  margin-left: 50px;
 }
 
 @media (max-width:1200px) {

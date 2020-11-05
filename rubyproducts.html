@@ -25,16 +25,16 @@
 
 <body>
 
-  <nav class="banner bannercolor flexbox-row2">
+  <nav class="banner bannercolor flexbox-row-banner">
     <div class="banner-logo">
-      <a class="nav-link" href="DivineHome.html"> <img src="images/rubylogo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
+      <a class="nav-link" href="index.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
     </div>
 
     <div class="flexbox-row2 hidden" id="hamborgorstuffing">
       <ul class="banner-item-left">
         <li class="nav-list"> <a class="nav-link rubynav" href="products.html"> Products</a> </li>
         <li class="nav-list"> <a class="nav-link rubynav" href="ContactUs.html"> Contact </a> </li>
-        <li class="nav-list"> <a class="nav-link" href="DivineHome.html#aboutdivine"> About </a> </li>
+        <li class="nav-list"> <a class="nav-link rubynav" href="index.html#aboutdivine"> About </a> </li>
       </ul>
 
       <ul class="banner-item-right">
@@ -44,9 +44,19 @@
       </ul>
     </div>
 
-    <button id="hamborgor">&#9776;</button>
+    <div class="hamborgorbutton" id="hamborgor" onclick="openNav()">&#9776;</div>
   </nav>
 
+  <div id="theSideNav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidenavlist">
+      <a class="nav-link" href="products.html"> Products</a>
+      <a class="nav-link" href="ContactUs.html"> Contact </a>
+      <a class="nav-link" href="index.html#aboutdivine"> About </a>
+      <a class="nav-link" href="Checkout.html"> Cart </a>
+      <a class="nav-link" href="Login.html"> Login </a>
+    </div>
+  </div>
 
   <div class="bannercontainer">
     <div class="parallax-container">
@@ -289,7 +299,7 @@
           <p class="para-text">description </p>
         </div>
 
-        <div class="flex-item  product-bottom">
+        <div class="flex-item">
           <h1 class="product-price"> $7.65 </h1>
           <a class="button-nav" href="#">Add to Cart</a>
         </div>
@@ -300,8 +310,18 @@
 
 
   </section>
-
-  <a class="top-link hide rubybut" href="" id="topButton">
+  <footer>
+    <div class="footdetails">
+      <nav>
+        <ul>
+          <li class="foot-list"> <a class="footerlink" href="styleguide.html"> Styleguide</a> </li>
+          <li class="foot-list"> <a class="footerlink" href="citations.html"> Citations</a> </li>
+          <li class="foot-list"> <a class="footerlink" href="https://github.com/n8designs/IAT339_P2/commits/main"> Github </a> </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <a class="top-link hide rubybut" href="" id="topButton"> </a>
 
 </body>
 

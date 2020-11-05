@@ -23,16 +23,16 @@
 
 <body>
 
-  <nav class="banner bannercolor flexbox-row2 bannerbackground">
+  <nav class="banner bannercolor flexbox-row-banner">
     <div class="banner-logo">
-      <a class="nav-link" href="DivineHome.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
+      <a class="nav-link" href="index.html"> <img src="images/logo.png" alt="Logo Divine Chocolatier" class="logo"> </a>
     </div>
 
     <div class="flexbox-row2 hidden" id="hamborgorstuffing">
       <ul class="banner-item-left">
         <li class="nav-list"> <a class="nav-link" href="products.html"> Products</a> </li>
         <li class="nav-list"> <a class="nav-link" href="ContactUs.html"> Contact </a> </li>
-        <li class="nav-list"> <a class="nav-link" href="DivineHome.html#aboutdivine"> About </a> </li>
+        <li class="nav-list"> <a class="nav-link" href="index.html#aboutdivine"> About </a> </li>
       </ul>
 
       <ul class="banner-item-right">
@@ -42,8 +42,19 @@
       </ul>
     </div>
 
-    <button id="hamborgor">&#9776;</button>
+    <div class="hamborgorbutton" id="hamborgor" onclick="openNav()">&#9776;</div>
   </nav>
+
+  <div id="theSideNav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidenavlist">
+      <a class="nav-link" href="products.html"> Products</a>
+      <a class="nav-link" href="ContactUs.html"> Contact </a>
+      <a class="nav-link" href="index.html#aboutdivine"> About </a>
+      <a class="nav-link" href="Checkout.html"> Cart </a>
+      <a class="nav-link" href="Login.html"> Login </a>
+    </div>
+  </div>
 
 
   <div class="flexbox-column start-page">
@@ -83,13 +94,13 @@
 
       <div class="product-listing-box flexbox-column">
         <div class="flex-item">
-          <a href="#">
+          <a href="GiandujaBar.html">
             <img class="product-image-pic" src="images/bar.jpg" alt="bar">
           </a>
         </div>
         <div class="flex-item">
 
-          <a href="" class="product-name">Product Name </a>
+          <a href="GiandujaBar.html" class="product-name">Product Name </a>
 
         </div>
         <div class="flex-item">
@@ -105,13 +116,13 @@
 
       <div class="product-listing-box flexbox-column">
         <div class="flex-item">
-          <a href="#">
+          <a href="GiandujaBar.html">
             <img class="product-image-pic" src="images/bar.jpg" alt="bar">
           </a>
         </div>
         <div class="flex-item">
 
-          <a href="" class="product-name">Product Name </a>
+          <a href="GiandujaBar.html" class="product-name">Product Name </a>
 
         </div>
         <div class="flex-item">
@@ -126,30 +137,39 @@
 
       <div class="product-listing-box flexbox-column">
         <div class="flex-item">
-          <a href="#">
+          <a href="GiandujaBar.html">
             <img class="product-image-pic" src="images/bar.jpg" alt="bar">
           </a>
         </div>
         <div class="flex-item">
 
-          <a href="" class="product-name">Product Name </a>
+          <a href="GiandujaBar.html" class="product-name">Product Name </a>
 
         </div>
         <div class="flex-item">
           <p class="para-text">description </p>
         </div>
 
-        <div class="flex-item  product-bottom">
+        <div class="flex-item ">
           <h1 class="product-price"> $7.65 </h1>
           <a class="button-nav" href="#">Add to Cart</a>
         </div>
       </div>
-
-
     </div>
 
   </section>
-  <a class="top-link hide regbut" href="" id="topButton">
+  <footer>
+    <div class="footdetails">
+      <nav>
+        <ul>
+          <li class="foot-list"> <a class="footerlink" href="styleguide.html"> Styleguide</a> </li>
+          <li class="foot-list"> <a class="footerlink" href="citations.html"> Citations</a> </li>
+          <li class="foot-list"> <a class="footerlink" href="https://github.com/n8designs/IAT339_P2/commits/main"> Github </a> </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <a class="top-link hide regbut" href="" id="topButton"> </a>
 </body>
 
 </html>

@@ -68,6 +68,8 @@
 @media (max-width:700px) {
   .top-link {
     margin: 0 0.5rem 0.5rem 0;
+    width: 20vw;
+    height: 20vw;
   }
 
   .regbut {
