@@ -294,8 +294,8 @@
   }
 
   .sectiontitle {
-    margin-left: 10vw;
-    margin-top: 15vw;
+    margin-left: 20vw;
+    margin-top: 30vw;
   }
 
   .bannercontainer {
@@ -323,7 +323,7 @@
   #rubyproducts {
     background-image: none;
     background-color: #E9C3B1;
-    height: 30vh;
+    height: 45vh;
   }
 
 
@@ -371,13 +371,13 @@
     visibility: visible;
     font-size: 10vw;
     margin-top: 9vh;
-    margin-left: 3vw;
+    margin-left: 20vw;
   }
 
   .rubysubtitle {
     position:absolute;
-    margin-left: 3vw;
-    margin-top: 25vh;
+    margin-left: 20vw;
+    margin-top: 40vh;
     text-align: left;
     letter-spacing: .3rem;
     color: #871A21;
