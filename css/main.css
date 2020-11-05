@@ -25,6 +25,7 @@ body {
 section {}
 
 footer {
+  margin-top: 10vh;
   background-color: #AB523C;
   left: 0;
   bottom: 0;
@@ -748,5 +749,15 @@ top: 0px; */
 
   .legend {
     margin-top: 10vh;
+  }
+}
+
+@media (max-height:700px) {
+  .product-listing-box {
+    box-sizing: border-box;
+    max-width: 250px;
+    height: 70vw;
+    
+
   }
 }
