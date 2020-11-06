@@ -341,21 +341,18 @@ html {
     margin-top: 60vh;
   }
   .mainimage {
-    position: absolute;
-    margin-left: 60vw;
-    margin-top: 45vh;
-
+    visibility: hidden;
   }
   .classybutton {
     position: absolute;
     margin-left: 1vw;
     margin-top: 70vh;
-
+  }
+  .classyimage {
+    visibility: hidden;
   }
   .boldimage {
-    position: absolute;
-    margin-left: 60vw;
-    margin-top: 30vh;
+    visibility: hidden;
 
   }
   .boldbutton {
@@ -364,6 +361,9 @@ html {
     margin-top: 70vh;
   }
 
+  .adventurousimage {
+    visibility: hidden;
+  }
   .aboutsubtitle {
     position: absolute;
     margin-top: 1vh;
