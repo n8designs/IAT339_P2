@@ -212,7 +212,7 @@ html {
   margin-bottom: 7vw;
   box-sizing: border-box;
   margin-bottom: 10vw;
-  height: 200vh;
+  height: 100vh;
 }
 
 @media (max-width:700px) {
@@ -346,16 +346,24 @@ html {
   .mainimage {
     visibility: hidden;
   }
+
   .classybutton {
     position: absolute;
     margin-left: 1vw;
     margin-top: 70vh;
   }
+
   .classyimage {
     visibility: hidden;
   }
+
   .boldimage {
     visibility: hidden;
+  }
+
+  .adventurousimage {
+    visibility: hidden;
+  }
 
   .boldbutton {
     position: absolute;
@@ -363,23 +371,22 @@ html {
     margin-top: 70vh;
   }
 
-  .adventurousimage {
-    visibility: hidden;
-  }
   .aboutsubtitle {
     position: absolute;
     margin-top: 1vh;
   }
 
   .abouttitle {
-    margin-top: 40vh;
-    margin-bottom: 100vh;
+    position: absolute;
+    margin-top: 20vh;
   }
 
   .abouttext {
     position: absolute;
-    margin-top: 100vh;
+    margin-top: 70vh;
   }
 
-
+  #aboutdivine {
+    height: 200vh;
+  }
 }
