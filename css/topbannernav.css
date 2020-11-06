@@ -73,7 +73,7 @@ background: linear-gradient(34deg, rgba(106,71,46,1) 0%, rgba(148,106,76,1) 35%,
 
 .sidenavlist {
   position: relative;
-  top: 25%;
+  top: 25vw;
   text-align: center;
 }
 

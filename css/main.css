@@ -25,7 +25,8 @@ body {
 section {}
 
 footer {
-  margin-top: 10vh;
+  margin-top: 10vw;
+  margin-bottom: 0;
   background-color: #AB523C;
   left: 0;
   bottom: 0;
@@ -148,11 +149,11 @@ code {
 }
 
 .contactdetails {
-  margin-top: 20vh;
+  margin-top: 20vw;
 }
 
 .paymentdetail {
-  margin-top: 20vh;
+  margin-top: 20vw;
 }
 
 .nav-link:hover {
@@ -438,6 +439,8 @@ top: 0px; */
 .checkout-checkbox {
   padding-left: 5rem;
   display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .checkout-description {
@@ -591,11 +594,11 @@ top: 0px; */
   }
 
   .footdetails {
-    margin-left: 10vw;
+    margin-left: 2vw;
   }
 
   .footerlink {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .product-image-pic {
