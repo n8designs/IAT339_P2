@@ -329,3 +329,51 @@ html {
     font-size: 4rem;
   }
 }
+@media (max-height: 811px) {
+  .maintitle {
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 27vh;
+  }
+  .mainbutton {
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 60vh;
+  }
+  .mainimage {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 45vh;
+
+  }
+  .classybutton {
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 70vh;
+
+  }
+  .boldimage {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 30vh;
+
+  }
+  .boldbutton {
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 70vh;
+  }
+
+  .aboutsubtitle {
+    position: absolute;
+    margin-top: 1vh;
+  }
+  .abouttitle {
+    position: absolute;
+    margin-top: 20vh;
+  }
+  .abouttext {
+    position: absolute;
+    margin-top: 70vh;
+  }
+}
