@@ -212,7 +212,7 @@ html {
   margin-bottom: 7vw;
   box-sizing: border-box;
   margin-bottom: 10vw;
-  min-height: 100vh;
+  height: 200vh;
 }
 
 @media (max-width:700px) {
@@ -372,16 +372,14 @@ html {
   }
 
   .abouttitle {
-    position: absolute;
-    margin-top: 20vh;
+    margin-top: 40vh;
+    margin-bottom: 100vh;
   }
 
   .abouttext {
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 100vh;
   }
 
-  #aboutdivine {
-    height: 200vh;
-  }
+
 }
