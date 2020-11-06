@@ -318,24 +318,28 @@
     background-image: none;
     background-color: #AB523C;
     height: 30vh;
+
   }
 
   #fruitproducts {
     background-image: none;
     background-color: #8D7066;
     height: 30vh;
+
   }
 
   #darkproducts {
     background-image: none;
     background-color: #311D23;
     height: 30vh;
+
   }
 
   #rubyproducts {
     background-image: none;
     background-color: #E9C3B1;
-    height: 45vh;
+    height: 30vh;
+
   }
 
   .fruittitle {
@@ -385,6 +389,7 @@
   }
 
   .rubysubtitle {
+    visibility: hidden;
     position: absolute;
     margin-left: 20vw;
     margin-top: 40vh;
@@ -418,4 +423,41 @@
   .product-section {
     margin-left: 10vw;
   }
+}
+
+@media (max-height: 600px) {
+  .rubysubtitle {
+    visibility: hidden;
+  }
+  .rubytitle {
+    visibility: hidden;
+  }
+  .fruittitle {
+    visibility: hidden;
+  }
+
+  .fruitsubtitle {
+    visibility: hidden;
+  }
+
+  .darksubtitle {
+    visibility: hidden;
+  }
+
+  .darktitle {
+    visibility: hidden;
+  }
+  .abouttitle {
+    visibility: hidden;
+  }
+  .shopsubsubtitle {
+    visibility: hidden;
+  }
+  .aboutsubtitle {
+    visibility: hidden;
+  }
+  .aboutsubsubtitle {
+    visibility: hidden;
+  }
+
 }
