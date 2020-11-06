@@ -758,15 +758,19 @@ top: 0px; */
     max-width: 250px;
     height: 40vw;
   }
+
   .darksubtitle {
     visibility: hidden;
   }
+
   .fruitsubtitle {
     visibility: hidden;
   }
+
   .rubysubtitle {
     visibility: hidden;
   }
+
   .aboutsubsubtitle {
     visibility: hidden;
   }
@@ -778,16 +782,25 @@ top: 0px; */
     max-width: 250px;
     height: 140vh;
   }
+
   .darksubtitle {
     visibility: hidden;
   }
+
   .fruitsubtitle {
     visibility: hidden;
   }
+
   .rubysubtitle {
     visibility: hidden;
   }
+
   .aboutsubsubtitle {
     visibility: hidden;
+  }
+
+  .product-image-pic {
+    width: 40vw;
+    height: auto;
   }
 }
