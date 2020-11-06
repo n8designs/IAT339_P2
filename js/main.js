@@ -18,7 +18,6 @@ const scrollFunc = () => {
     scrollToTopButton.style.display = "none";
   }
 };
-
 scrollFunc();
 
 window.addEventListener("scroll", scrollFunc);

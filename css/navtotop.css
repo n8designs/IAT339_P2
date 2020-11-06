@@ -70,6 +70,8 @@
     margin: 0 0.5rem 0.5rem 0;
     width: 20vw;
     height: 20vw;
+    bottom: 10vh;
+    right: 0;
   }
 
   .regbut {
