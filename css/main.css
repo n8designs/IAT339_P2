@@ -575,6 +575,22 @@ top: 0px; */
     visibility: hidden;
   }
 
+  .darksubtitle {
+    visibility: hidden;
+  }
+
+  .fruitsubtitle {
+    visibility: hidden;
+  }
+
+  .rubysubtitle {
+    visibility: hidden;
+  }
+
+  .shopsubsubtitle {
+    visibility: hidden;
+  }
+
   .cite {
     margin-top: 15vh;
   }
