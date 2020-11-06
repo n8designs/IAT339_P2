@@ -147,6 +147,10 @@ code {
     color ease-in 100ms;
 }
 
+.contactdetails {
+  margin-top: 20vh;
+}
+
 .nav-link:hover {
   color: #3F3F3D;
 }
