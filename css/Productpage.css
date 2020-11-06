@@ -235,9 +235,8 @@
   display: block;
 }
 
-.indivproduct-startpage {
+.indivproduct-startpage {}
 
-}
 @media (max-width:1190px) {
   .productnav {
     visibility: hidden;
@@ -245,7 +244,6 @@
 }
 
 @media (max-width:700px) {
-
   .productnav {
     visibility: hidden;
   }
@@ -326,7 +324,6 @@
     height: 45vh;
   }
 
-
   .fruittitle {
     text-align: left;
     visibility: visible;
@@ -336,7 +333,7 @@
   }
 
   .fruitsubtitle {
-    position:absolute;
+    position: absolute;
     margin-left: 3vw;
     margin-top: 25vh;
     text-align: left;
@@ -346,9 +343,8 @@
     font-size: 2rem;
   }
 
-
   .darksubtitle {
-    position:absolute;
+    position: absolute;
     margin-left: 3vw;
     margin-top: 25vh;
     text-align: left;
@@ -375,7 +371,7 @@
   }
 
   .rubysubtitle {
-    position:absolute;
+    position: absolute;
     margin-left: 20vw;
     margin-top: 40vh;
     text-align: left;
@@ -393,8 +389,6 @@
   .fullproduct-image-pic:hover {
     box-shadow: none;
   }
-
-
 }
 
 @media (max-width:1195px) {

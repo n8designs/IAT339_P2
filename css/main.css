@@ -562,256 +562,249 @@ top: 0px; */
   border: 2px solid #3F3F3D;
 }
 
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1375px) {
   .form {
-    margin-top: 60vw;
-  }
-}
-
-@media screen and (max-width:1910px) {
-  .form {
-    margin-top: 60vw;
-  }
-}
-
-@media screen and (max-width:700px) {
-  .checkout-boxshadow {
-    visibility: hidden;
+    margin-top: 50vh;
   }
 
-  .cite {
-    margin-top: 10vh;
+  @media screen and (max-width:700px) {
+    .checkout-boxshadow {
+      visibility: hidden;
+    }
+
+    .cite {
+      margin-top: 10vh;
+    }
+
+    .body {}
+
+    html {
+      font-size: 3vw;
+    }
+
+    .form {
+      margin-top: 60vh;
+    }
+
+    .footdetails {
+      margin-left: 2vw;
+    }
+
+    .footerlink {
+      font-size: 3vw;
+    }
+
+    .product-image-pic {
+      width: 50vw;
+      height: auto;
+      margin-bottom: 2rem;
+      box-shadow:
+        -10px -10px 0 -2px #FEFFF6,
+        -10px -10px 0 0 #AB523C,
+        5px 5px 5px 0 #888888;
+    }
+
+    .product-image-pic:hover {
+      box-shadow:
+        -10px -10px 0 -2px #FEFFF6,
+        -10px -10px 0 0 #AB523C,
+        5px 5px 5px 0 #888888;
+    }
+
+    .product-bottom {
+      margin-bottom: 100vw;
+    }
+
+    .product-shift {
+      margin-left: 10rem;
+    }
+
+    .product-listing-box {
+      box-sizing: border-box;
+      max-width: 250px;
+      height: 70vw;
+      margin: 20vw;
+      margin-top: 3rem;
+      padding-bottom: 10vh;
+      margin-right: 10rem;
+      margin-bottom: 30vh;
+    }
+
+    .checkout-name {
+      display: block;
+      font-size: 4vw;
+    }
+
+    .HomeBanner img {
+      height: auto;
+      width: 40rem;
+      margin-left: 3rem;
+      opacity: 0.9;
+    }
+
+    .HomeBanner {
+      height: 30rem;
+    }
+
+    .homebanner-button-nav {
+      margin-left: -15rem;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container:hover input~.checkmark {
+      background-color: #ccc;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container input:checked~.checkmark {
+      background-color: #2196F3;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container input:checked~.checkmark:after {
+      display: block;
+    }
+
+    /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+    .container .checkmark:after {
+      left: 9px;
+      top: 5px;
+      width: 5px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    .login-box {
+      width: 280px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    .login-box h1 {
+      float: left;
+      font-size: 40px;
+      border-bottom: 6px solid;
+      margin-bottom: 50px;
+      padding: 13px 0;
+    }
+
+    .textbox {
+      width: 100%;
+      overflow: hidden;
+      font-size: 20px;
+      padding: 8px 0;
+      margin: 8px 0;
+      border-bottom: 1px solid;
+    }
+
+    .logo {
+      width: 80vw;
+      max-width: 130px;
+      height: auto;
+      margin-top: -1.3rem;
+    }
+
+    .legend {
+      margin-top: 10vh;
+    }
   }
 
-  .body {}
+  @media (max-height:700px) {
+    .product-listing-box {
+      box-sizing: border-box;
+      max-width: 250px;
+      height: 40vw;
+    }
 
-  html {
-    font-size: 3vw;
+    .darksubtitle {
+      visibility: hidden;
+    }
+
+    .fruitsubtitle {
+      visibility: hidden;
+    }
+
+    .rubysubtitle {
+      visibility: hidden;
+    }
+
+    .aboutsubsubtitle {
+      visibility: hidden;
+    }
   }
 
-  .form {
-    margin-top: 60vh;
-  }
+  @media (max-height:811px) {
+    .product-listing-box {
+      box-sizing: border-box;
+      max-width: 250px;
+      height: 140vh;
+    }
 
-  .footdetails {
-    margin-left: 2vw;
-  }
+    .darksubtitle {
+      visibility: hidden;
+    }
 
-  .footerlink {
-    font-size: 3vw;
-  }
+    .fruitsubtitle {
+      visibility: hidden;
+    }
 
-  .product-image-pic {
-    width: 50vw;
-    height: auto;
-    margin-bottom: 2rem;
-    box-shadow:
-      -10px -10px 0 -2px #FEFFF6,
-      -10px -10px 0 0 #AB523C,
-      5px 5px 5px 0 #888888;
-  }
+    .rubysubtitle {
+      visibility: hidden;
+    }
 
-  .product-image-pic:hover {
-    box-shadow:
-      -10px -10px 0 -2px #FEFFF6,
-      -10px -10px 0 0 #AB523C,
-      5px 5px 5px 0 #888888;
-  }
+    .aboutsubsubtitle {
+      visibility: hidden;
+    }
 
-  .product-bottom {
-    margin-bottom: 100vw;
+    .product-image-pic {
+      width: 40vw;
+      height: auto;
+    }
   }
-
-  .product-shift {
-    margin-left: 10rem;
-  }
-
-  .product-listing-box {
-    box-sizing: border-box;
-    max-width: 250px;
-    height: 70vw;
-    margin: 20vw;
-    margin-top: 3rem;
-    padding-bottom: 10vh;
-    margin-right: 10rem;
-    margin-bottom: 30vh;
-  }
-
-  .checkout-name {
-    display: block;
-    font-size: 4vw;
-  }
-
-  .HomeBanner img {
-    height: auto;
-    width: 40rem;
-    margin-left: 3rem;
-    opacity: 0.9;
-  }
-
-  .HomeBanner {
-    height: 30rem;
-  }
-
-  .homebanner-button-nav {
-    margin-left: -15rem;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container:hover input~.checkmark {
-    background-color: #ccc;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container input:checked~.checkmark {
-    background-color: #2196F3;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container input:checked~.checkmark:after {
-    display: block;
-  }
-
-  /* How to create custom checkboxes from https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
-  .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  .login-box {
-    width: 280px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-  .login-box h1 {
-    float: left;
-    font-size: 40px;
-    border-bottom: 6px solid;
-    margin-bottom: 50px;
-    padding: 13px 0;
-  }
-
-  .textbox {
-    width: 100%;
-    overflow: hidden;
-    font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid;
-  }
-
-  .logo {
-    width: 80vw;
-    max-width: 130px;
-    height: auto;
-    margin-top: -1.3rem;
-  }
-
-  .legend {
-    margin-top: 10vh;
-  }
-}
-
-@media (max-height:700px) {
-  .product-listing-box {
-    box-sizing: border-box;
-    max-width: 250px;
-    height: 40vw;
-  }
-
-  .darksubtitle {
-    visibility: hidden;
-  }
-
-  .fruitsubtitle {
-    visibility: hidden;
-  }
-
-  .rubysubtitle {
-    visibility: hidden;
-  }
-
-  .aboutsubsubtitle {
-    visibility: hidden;
-  }
-}
-
-@media (max-height:811px) {
-  .product-listing-box {
-    box-sizing: border-box;
-    max-width: 250px;
-    height: 140vh;
-  }
-
-  .darksubtitle {
-    visibility: hidden;
-  }
-
-  .fruitsubtitle {
-    visibility: hidden;
-  }
-
-  .rubysubtitle {
-    visibility: hidden;
-  }
-
-  .aboutsubsubtitle {
-    visibility: hidden;
-  }
-
-  .product-image-pic {
-    width: 40vw;
-    height: auto;
-  }
-}

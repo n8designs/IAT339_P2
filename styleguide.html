@@ -544,9 +544,9 @@ create components that moved/shifted and fit everything in the way I wanted it t
         <div class="box">
           <form action="products.html" method="post">
             <h1>Login</h1>
-            <input type="text" name="" placeholder="UserName">
-            <input type="password" name="" value="" placeholder="password">
-            <input type="submit" name="" value="Login">
+            <input type="text" name="username" placeholder="UserName">
+            <input type="password" name="password" value="" placeholder="password">
+            <input type="submit" value="Login">
           </form>
         </div>
 
@@ -554,23 +554,24 @@ create components that moved/shifted and fit everything in the way I wanted it t
 
 
       <section id="contact">
-        <form class="form flexbox-column">
-          <legend>
+        <legend>
+          <form class="form flexbox-column">
+
             <h1>Contact Us</h1>
             <p>Ask asks any questions or request anything</p>
-          </legend>
+
+            <div>
+              <input type="text" name="name" value="" placeholder="First Name">
+              <input type="text" name="lastname" value="" placeholder="Last Name">
+              <input type="text" name="email" value="" placeholder="Email Address">
+              <textarea name="name" placeholder="How can we help?" style="height:200px"></textarea>
+              <a href="#" class="button-nav">Submit</a>
+
+            </div>
 
 
-          <div>
-            <input type="text" name="" value="" placeholder="First Name">
-            <input type="text" name="" value="" placeholder="Last Name">
-            <input type="text" name="" value="" placeholder="Email Address">
-            <textarea name="name" placeholder="How can we help?" style="height:200px"></textarea>
-            <a href="#" class="button-nav">Submit</a>
-
-
-        </form>
-
+          </form>
+        </legend>
       </section>
 
     </section>

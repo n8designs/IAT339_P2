@@ -106,6 +106,7 @@
     transform: scale(0.75);
   }
 }
+
 @media (max-width: 350px) {
   .top-link {
     visibility: hidden;
